@@ -22,16 +22,17 @@
             <li>修复若干剪贴记录分类、预览、粘贴和界面交互细节问题</li>
         </ul>
     ]]></description>
-    <pubDate>Mon, 15 Jun 2026 15:39:00 +0800</pubDate>
+    <pubDate>Sat, 15 Jun 2026 16:29:00 +0800</pubDate>
     <enclosure 
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.1/Clipo_Setup.dmg"
         sparkle:version="23" 
         sparkle:shortVersionString="1.2.1"
         length="11042585"
         type="application/octet-stream"
-        sparkle:edSignature="1NsLyFMXrcgApYeWrocXxni3r7b92sq+dcKR+DxxQLN/yIRJtbWcKnu+NfNDyyT/SW5Em4IORSmlEzHAS3UCBA=="
+sparkle:edSignature="1NsLyFMXrcgApYeWrocXxni3r7b92sq+dcKR+DxxQLN/yIRJtbWcKnu+NfNDyyT/SW5Em4IORSmlEzHAS3UCBA=="
     />
 </item>
+
 <item>
     <title>Version 1.2.0</title>
     <description><![CDATA[
