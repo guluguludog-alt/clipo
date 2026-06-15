@@ -4,6 +4,35 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.2.1</title>
+    <description><![CDATA[
+        <ul>
+            <li>新增复制 / 粘贴提示音，让剪贴操作反馈更清晰</li>
+            <li>新增堆叠粘贴模式，支持连续收集多条内容并按顺序快速粘贴</li>
+            <li>新增「混合」类别剪贴记录，支持图文混合内容加入剪贴历史</li>
+            <li>新增截屏翻译功能，并可接入 AI 翻译</li>
+            <li>新增预览界面，支持文字、图像、代码、文章和图文混合内容快速预览</li>
+            <li>新增「单条记录最大存储占用」选项，可限制单条剪贴记录的最大缓存大小</li>
+            <li>新增本地部署模型支持，可接入本地模型</li>
+            <li>面板新增顶部位置选项，支持鼠标移动到刘海区域快速唤出面板</li>
+            <li>优化 AI 搜索筛选逻辑，搜索速度大幅提升</li>
+            <li>优化 AI 模式性能与界面表现，降低长对话和卡片渲染带来的卡顿</li>
+            <li>优化冷启动面板性能，减少首次打开面板时的延迟</li>
+            <li>修复部分功能快捷键绑定默认值异常的问题</li>
+            <li>修复若干剪贴记录分类、预览、粘贴和界面交互细节问题</li>
+        </ul>
+    ]]></description>
+    <pubDate>Mon, 15 Jun 2026 15:39:00 +0800</pubDate>
+    <enclosure 
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.1/Clipo_Setup.dmg"
+        sparkle:version="23" 
+        sparkle:shortVersionString="1.2.1"
+        length="11042585"
+        type="application/octet-stream"
+        sparkle:edSignature="1NsLyFMXrcgApYeWrocXxni3r7b92sq+dcKR+DxxQLN/yIRJtbWcKnu+NfNDyyT/SW5Em4IORSmlEzHAS3UCBA=="
+    />
+</item>
+<item>
     <title>Version 1.2.0</title>
     <description><![CDATA[
         <ul>
