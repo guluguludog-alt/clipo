@@ -4,6 +4,34 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.2.2</title>
+    <description><![CDATA[
+        <ul>
+            <li>新增智能截屏功能，集成长截图、马赛克、图片标记、OCR 识别、图片表格提取、图片生成 LaTeX 代码等多项能力</li>
+            <li>新增表格预览、LaTeX 预览与 Markdown 预览，支持更多内容格式的快速查看</li>
+            <li>新增图像抠图功能，可自动提取图片主体，便于后续编辑和使用</li>
+            <li>新增自定义快速工具栏菜单，可根据个人习惯配置常用工具</li>
+            <li>截图页面新增 Ask AI 聊天框，可直接针对截图内容发起提问</li>
+            <li>新增图片文字搜索能力，现在可以直接搜索图片中的文字内容</li>
+            <li>优化搜索性能，提升剪贴记录检索速度与响应体验</li>
+            <li>优化剪贴记录的时间显示逻辑，使时间信息更加清晰准确</li>
+            <li>优化边缘触发面板逻辑，新增 0.3 秒防误触延迟，减少误启动情况</li>
+            <li>修复拖拽窗口时可能误启动面板的问题</li>
+            <li>修复其他若干细节问题，提升整体稳定性与使用体验</li>
+        </ul>
+    ]]></description>
+    <pubDate>Mon, 22 Jun 2026 14:52:00 +0800</pubDate>
+    <enclosure 
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.2/Clipo_Sparkle.dmg"
+        sparkle:version="24" 
+        sparkle:shortVersionString="1.2.2"
+        length="15677026"
+        type="application/octet-stream"
+        sparkle:edSignature="Qc+gPXdFWRKlfRAAXFDXgHDUaB69A6lhPSYxIupE/rWpTcbBx5U+U6FfpOya6kKdBiZBoGz+JQCM5XxQPBloDg=="
+    />
+</item>
+
+<item>
     <title>Version 1.2.1</title>
     <description><![CDATA[
         <ul>
