@@ -1,5 +1,5 @@
 # Quick Guides
-
+本项目正在更新，一些功能可能调整，本指南可能不完整或有误。
 ## 中文快速指南
 
 [![中文快速指南](https://img.youtube.com/vi/F_4WICR8o4o/maxresdefault.jpg)](https://www.youtube.com/watch?v=F_4WICR8o4o)
