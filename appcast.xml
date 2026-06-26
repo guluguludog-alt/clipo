@@ -18,6 +18,31 @@
             <li>修复了若干已知问题，提升软件稳定性。</li>
         </ul>
     ]]></description>
+    <pubDate>Fri, 26 Jun 2026 22:19:55 +0800</pubDate>
+    <enclosure 
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.3/Clipo_Sparkle.dmg"
+        sparkle:version="27" 
+        sparkle:shortVersionString="1.2.3"
+        length="16568875"
+        type="application/octet-stream"
+        sparkle:edSignature="gvqhYhtIewKMF7qwcMhgyjCJZF+NnE1itJuqtiZw+6aRFlrjdG4+wYwNqdtUHf+wSDzs2EZO+OCovbZ6lbHWAQ=="
+    />
+</item>
+<item>
+    <title>Version 1.2.3</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo v1.2.3 已发布</li>
+            <li>新增</li>
+            <li>新增番茄钟工具</li>
+            <li>快速工具栏现已支持番茄钟，可自定义专注时长与循环轮次。你还可以随时查看统计数据，包括累计专注时长、专注时间分布等，帮助你更直观地了解自己的专注情况。</li>
+            <li>优化</li>
+            <li>优化智能截图在多屏幕环境下的使用体验。</li>
+            <li>降低软件运行时的内存占用，提升后台使用体验。</li>
+            <li>修复</li>
+            <li>修复了若干已知问题，提升软件稳定性。</li>
+        </ul>
+    ]]></description>
     <pubDate>Fri, 26 Jun 2026 18:45:10 +0800</pubDate>
     <enclosure 
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.3/Clipo_Sparkle.dmg"
