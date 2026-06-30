@@ -4,6 +4,33 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.2.4</title>
+    <description><![CDATA[
+        <ul>
+            <li>clipo v1.2.4更新内容</li>
+            <li>新增</li>
+            <li>-快速工具新增文件瘦身，可对PDF，图片进行批量压缩。</li>
+            <li>-快速工具调用窗口，可快速查找和调用快速工具</li>
+            <li>-设置页全新改版，设置项更清晰，可关闭剪贴板管理功能</li>
+            <li>-引导页改版</li>
+            <li>优化</li>
+            <li>-减少了内存占用</li>
+            <li>修复</li>
+            <li>-修复了面板移入后不移出的问题</li>
+            <li>-其他错误修复</li>
+        </ul>
+    ]]></description>
+    <pubDate>Tue, 30 Jun 2026 23:03:52 +0800</pubDate>
+    <enclosure 
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.4/Clipo_Sparkle.dmg"
+        sparkle:version="28" 
+        sparkle:shortVersionString="1.2.4"
+        length="18048435"
+        type="application/octet-stream"
+        sparkle:edSignature="xJua48PHGXi9Y6uKy/jH4Xp9Gu9NDqW+Tz3wYgkyyHQWP9Igk2pnmLPPVBEd5rkebEIdDj0ZKz+KxB78ryU8Dg=="
+    />
+</item>
+<item>
     <title>Version 1.2.3</title>
     <description><![CDATA[
         <ul>
