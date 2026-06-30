@@ -7,17 +7,23 @@
     <title>Version 1.2.4</title>
     <description><![CDATA[
         <ul>
-            <li>clipo v1.2.4更新内容</li>
-            <li>新增</li>
-            <li>-快速工具新增文件瘦身，可对PDF，图片进行批量压缩。</li>
-            <li>-快速工具调用窗口，可快速查找和调用快速工具</li>
-            <li>-设置页全新改版，设置项更清晰，可关闭剪贴板管理功能</li>
-            <li>-引导页改版</li>
-            <li>优化</li>
-            <li>-减少了内存占用</li>
-            <li>修复</li>
-            <li>-修复了面板移入后不移出的问题</li>
-            <li>-其他错误修复</li>
+            <li>Clipo v1.2.4 更新内容</li>
+            <li>中文</li>
+            <li>新增：快速工具新增文件瘦身，可对 PDF、图片进行批量压缩。</li>
+            <li>新增：新增快速工具调用窗口，可快速查找和调用快速工具。</li>
+            <li>新增：设置页全新改版，设置项更清晰，并可关闭剪贴板管理功能。</li>
+            <li>新增：引导页改版。</li>
+            <li>优化：减少了内存占用。</li>
+            <li>修复：修复了面板移入后不移出的问题。</li>
+            <li>修复：修复了其他已知问题。</li>
+            <li>English</li>
+            <li>New: Added file slimming in Quick Tools, with batch compression for PDFs and images.</li>
+            <li>New: Added a Quick Tools launcher for faster search and access to tools.</li>
+            <li>New: Redesigned Settings with clearer options and the ability to turn off clipboard management.</li>
+            <li>New: Refreshed the onboarding experience.</li>
+            <li>Improved: Reduced memory usage.</li>
+            <li>Fixed: Fixed an issue where the panel could stay visible after the pointer moved away.</li>
+            <li>Fixed: Fixed additional known issues.</li>
         </ul>
     ]]></description>
     <pubDate>Tue, 30 Jun 2026 23:03:52 +0800</pubDate>
