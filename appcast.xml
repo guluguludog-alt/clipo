@@ -26,14 +26,14 @@
             <li>Fixed: Fixed multiple known issues.</li>
         </ul>
     ]]></description>
-    <pubDate>Sat, 04 Jul 2026 17:16:55 +0800</pubDate>
+    <pubDate>Sat, 04 Jul 2026 21:19:05 +0800</pubDate>
     <enclosure 
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.5/Clipo_Sparkle.dmg"
-        sparkle:version="30" 
+        sparkle:version="31" 
         sparkle:shortVersionString="1.2.5"
-        length="18501299"
+        length="18503682"
         type="application/octet-stream"
-        sparkle:edSignature="sk+BlfmuVaLHeWMSsp+hPVaXUX7UB9HhT0EA0QOTI6mAL3G44ftznJU9rzY3kXEuHmqSM6zUw4clE5uc+W+YBw=="
+        sparkle:edSignature="l/Npb9/hX16LVjKJZVI627h0yK4Z3Whbbv5b8GWJo6PAF3KJNqjTGMAwtW3a00VtfmQxFzKj2/UFqXwaaXZuDQ=="
     />
 </item>
 <item>
