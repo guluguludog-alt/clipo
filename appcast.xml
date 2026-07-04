@@ -4,6 +4,39 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.2.5</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo v1.2.5 发布</li>
+            <li>中文</li>
+            <li>新增：支持在剪贴卡片上使用空格键快速预览内容。</li>
+            <li>新增：新增二维码识别，可在图片预览窗口和智能截图中快速识别二维码。</li>
+            <li>新增：新增统计页面，帮助你直观了解剪贴板记录情况。</li>
+            <li>新增：新增快速工具搜索，只需点击面板按钮行的搜索按钮即可搜索快速工具，并支持模糊搜索。</li>
+            <li>优化：优化智能截图在连接多台显示器时的兼容性。</li>
+            <li>修复：修复加密剪贴板记录时，剪贴板记录仍能被复制的问题。</li>
+            <li>修复：修复多项已知问题。</li>
+            <li>English</li>
+            <li>New: Added Spacebar preview for clipboard cards.</li>
+            <li>New: Added QR code recognition in image previews and Smart Screenshot.</li>
+            <li>New: Added a statistics page for a clearer view of clipboard record activity.</li>
+            <li>New: Added Quick Tools search from the panel button row, with fuzzy search support.</li>
+            <li>Improved: Improved Smart Screenshot compatibility when multiple displays are connected.</li>
+            <li>Fixed: Fixed an issue where encrypted clipboard records could still be copied.</li>
+            <li>Fixed: Fixed multiple known issues.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Sat, 04 Jul 2026 16:11:58 +0800</pubDate>
+    <enclosure 
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.5/Clipo_Sparkle.dmg"
+        sparkle:version="29" 
+        sparkle:shortVersionString="1.2.5"
+        length="18500154"
+        type="application/octet-stream"
+        sparkle:edSignature="NCqYtUsCzonZUAQlqmUijBARJEpGF1MtpzU1xmJ6FtTYZPZRP8KzkcdvJg0Mf7nFDXxyul6EGh/jvgHGKss/Bw=="
+    />
+</item>
+<item>
     <title>Version 1.2.4</title>
     <description><![CDATA[
         <ul>
