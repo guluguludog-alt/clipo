@@ -4,6 +4,39 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.2.6</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo v1.2.6 发布</li>
+            <li>中文</li>
+            <li>本次更新不包含新功能，包含大量错误修复，提升了整体稳定性。</li>
+            <li>修复</li>
+            <li>修复了复制大量表格数据时卡顿的问题。</li>
+            <li>修复了复制大量内容时面板一段时间内不能正确唤出的问题。</li>
+            <li>其他错误修复。</li>
+            <li>优化</li>
+            <li>优化了卡片列表滚动时的性能。</li>
+            <li>English</li>
+            <li>This release focuses on stability improvements with no new features added.</li>
+            <li>Fixed</li>
+            <li>Fixed lag when copying large amounts of table data.</li>
+            <li>Fixed an issue where the panel could not be properly invoked for a period after copying large amounts of content.</li>
+            <li>Other bug fixes.</li>
+            <li>Improved</li>
+            <li>Improved scrolling performance for the card list.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Tue, 07 Jul 2026 23:36:24 +0800</pubDate>
+    <enclosure 
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.6/Clipo_Sparkle.dmg"
+        sparkle:version="32" 
+        sparkle:shortVersionString="1.2.6"
+        length="18588248"
+        type="application/octet-stream"
+        sparkle:edSignature="65X0EfOebdnwyZzjDCVPiVNyu0GzKY7OxE8rbAXj+dco9dDwCkqnDXp2j+3QtcT/R58OP27E+v/KtWUc5QFNBQ=="
+    />
+</item>
+<item>
     <title>Version 1.2.5</title>
     <description><![CDATA[
         <ul>
