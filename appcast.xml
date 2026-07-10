@@ -4,6 +4,31 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.2.7</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo v1.2.7 发布</li>
+            <li>中文</li>
+            <li>新增：自定义导出，可选择剪贴记录并导出为 HTML、TXT、PDF 等常用格式。</li>
+            <li>新增：普通搜索支持使用自然语言搜索图片（需配置 API Key 并开启图片自动索引）。</li>
+            <li>优化：提升整体稳定性。</li>
+            <li>English</li>
+            <li>New: Custom export lets you select clipboard records and export them as common formats including HTML, TXT, and PDF.</li>
+            <li>New: Use natural-language queries to search images from regular search (requires an API key and automatic image indexing).</li>
+            <li>Improved: Overall stability improvements.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Fri, 10 Jul 2026 17:16:51 +0800</pubDate>
+    <enclosure
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.7/Clipo_Sparkle.dmg"
+        sparkle:version="34"
+        sparkle:shortVersionString="1.2.7"
+        length="18995235"
+        type="application/octet-stream"
+        sparkle:edSignature="RQrttJLn/QdsAuE0Jc1H7oQYBEkUMZrt+yk9wLc/j/myFxx/Maj9qofOL//tr1Z4ae5T7BqF72omhcq1fvSCDQ=="
+    />
+</item>
+<item>
     <title>Version 1.2.6</title>
     <description><![CDATA[
         <ul>
