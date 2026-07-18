@@ -4,6 +4,33 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.2.8</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo v1.2.8 发布</li>
+            <li>中文</li>
+            <li>新增：快速工具现支持窗口置顶，可选取任意窗口并使其始终保持在最前方。</li>
+            <li>优化：更新了设置页面中快速工具菜单的视觉设计。</li>
+            <li>修复：修复了在部分应用中复制图片时，图片记录无法正常保存的问题。</li>
+            <li>修复：修复了其他已知问题并完善多处细节。</li>
+            <li>English</li>
+            <li>New: Quick Tools can now keep a selected window always on top.</li>
+            <li>Improved: Refreshed the visual design of the Quick Tools menu in Settings.</li>
+            <li>Fixed: Fixed an issue where copied images were not saved correctly in some apps.</li>
+            <li>Fixed: Resolved additional known issues and refined various details.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Sun, 19 Jul 2026 01:15:08 +0800</pubDate>
+    <enclosure
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.8/Clipo_Sparkle.dmg"
+        sparkle:version="35"
+        sparkle:shortVersionString="1.2.8"
+        length="16569366"
+        type="application/octet-stream"
+        sparkle:edSignature="MTPtSYSzEw24MiXxhQy1eLNARtTwk/qBCcZ7Szb6bM0RUNrTQ36Fs0oYIKjjnWKJ+5XWDwbIL/ve6/N9+a8bDA=="
+    />
+</item>
+<item>
     <title>Version 1.2.7</title>
     <description><![CDATA[
         <ul>
