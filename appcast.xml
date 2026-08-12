@@ -4,6 +4,35 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.2.9</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo v1.2.9 发布</li>
+            <li>中文</li>
+            <li>优化：截屏翻译不再弹出独立窗口，翻译内容将直接覆盖原文。</li>
+            <li>优化：改进了固定截图窗口，界面更加直观。</li>
+            <li>修复：修复了系统从休眠中唤醒后，无法通过快捷键启动智能截屏的问题。</li>
+            <li>修复：修复了 macOS 26 下的兼容性问题。</li>
+            <li>修复：修复了双击卡片无法粘贴的问题。</li>
+            <li>English</li>
+            <li>Improved: Screenshot translations now replace the original text directly instead of opening a separate window.</li>
+            <li>Improved: Refined the pinned screenshot window with a more intuitive interface.</li>
+            <li>Fixed: Fixed an issue where the Smart Screenshot keyboard shortcut stopped working after the Mac woke from sleep.</li>
+            <li>Fixed: Resolved compatibility issues on macOS 26.</li>
+            <li>Fixed: Fixed an issue where double-clicking a card did not paste its content.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Wed, 12 Aug 2026 23:07:43 +0800</pubDate>
+    <enclosure
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.9/Clipo_Sparkle.dmg"
+        sparkle:version="38"
+        sparkle:shortVersionString="1.2.9"
+        length="16983811"
+        type="application/octet-stream"
+        sparkle:edSignature="4J5qGySiXPLPUtQBJLw115nTTWiUzxw5cE3xXXM7425lcbIT7+iyL/L/roX3dPccfSoqX4zEjvAox2rBWjG8DA=="
+    />
+</item>
+<item>
     <title>Version 1.2.8</title>
     <description><![CDATA[
         <ul>
