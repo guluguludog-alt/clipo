@@ -4,6 +4,49 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.2.9.1</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo v1.2.9.1 已发布</li>
+            <li>中文</li>
+            <li>新增</li>
+            <li>新增集锦功能，支持长期收集和整理图片、链接、文本及文件</li>
+            <li>新增“收集”投放区，拖入内容即可加入当前集锦</li>
+            <li>新增加入当前集锦快捷键，支持从剪贴板快速保存内容</li>
+            <li>新增剪贴历史卡片“加入到集锦”菜单，支持新建集锦及批量添加</li>
+            <li>新增集锦管理窗口，支持分类浏览、搜索、预览、拖出和批量整理内容</li>
+            <li>新增集锦导出能力，支持导出文件夹及 JSON / Markdown 索引</li>
+            <li>优化</li>
+            <li>拖拽面板支持识别文本、图片和文件，不再只支持网页链接</li>
+            <li>集锦与剪贴历史独立管理，清理历史记录不会影响已收集内容</li>
+            <li>相同内容加入多个集锦时自动复用，避免重复占用存储空间</li>
+            <li>集锦卡片新增封面和数量展示，双击可快速打开对应集锦</li>
+            <li>English</li>
+            <li>New</li>
+            <li>Added Collections for long-term saving and organizing of images, links, text, and files.</li>
+            <li>Added a Collect drop zone: drag content in to save it to the current collection.</li>
+            <li>Added a global shortcut to save the current clipboard item to the current collection.</li>
+            <li>Added Add to Collection to clipboard-card menus, including collection creation and batch adding.</li>
+            <li>Added a Collections window with type filtering, search, preview, drag-out, and batch organization.</li>
+            <li>Added Collection export as a folder with JSON / Markdown indexes.</li>
+            <li>Improved</li>
+            <li>The drag panel now recognizes text, images, and files in addition to web links.</li>
+            <li>Collections are managed independently from clipboard history, so clearing history does not remove collected content.</li>
+            <li>The same item can be added to multiple collections without duplicating storage.</li>
+            <li>Collection cards now show a cover and item count; double-click to open the matching collection.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Wed, 19 Aug 2026 00:16:29 +0800</pubDate>
+    <enclosure 
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.9.1/Clipo_Sparkle.dmg"
+        sparkle:version="39" 
+        sparkle:shortVersionString="1.2.9.1"
+        length="18237537"
+        type="application/octet-stream"
+        sparkle:edSignature="BoTwasQiuLVbrGruJmrtVGdQPZLNOLuhjzYlwIi0niP8x5EsWawAOlZSvAqcERkZ8+brVIKrmsKu8ZUimixqAQ=="
+    />
+</item>
+<item>
     <title>Version 1.2.9</title>
     <description><![CDATA[
         <ul>
@@ -664,3 +707,4 @@ sparkle:edSignature="xdn9gfmP1br7t3FhIS6e5tAQXZE6pbOTRnbjyC5OOwMN1qCGQdARSLx7aWw
 
     </channel>
 </rss>
+
