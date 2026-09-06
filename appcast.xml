@@ -4,6 +4,46 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.3.0</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo 1.3.0 已推出！</li>
+            <li>Clipo 1.3.0 is now available!</li>
+            <li>新增 / New</li>
+            <li>局域网同步。剪贴板记录可在多台设备间实时同步。</li>
+            <li>Local network sync. Clipboard history can now sync in real time across multiple devices.</li>
+            <li>集锦。代替原有的标签功能，将多条剪贴板记录整理到统一集锦下，并通过瀑布流形式浏览记录。</li>
+            <li>Collections. Replace the former tag feature by organizing multiple clipboard records into collections and browsing them in a waterfall layout.</li>
+            <li>无限画布。将集锦中的剪贴板记录串联、整理并添加标注。</li>
+            <li>Infinite canvas. Connect and organize clipboard records from collections and add annotations.</li>
+            <li>支持命令行操作（CLI），融入终端、脚本与自动化工作流。</li>
+            <li>Command-line interface (CLI) support for terminals, scripts, and automation workflows.</li>
+            <li>编辑剪贴板历史。可直接对剪贴板历史中的图片和文本进行编辑。</li>
+            <li>Edit clipboard history. Images and text in clipboard history can now be edited directly.</li>
+            <li>全新 Clipo 图标。默认及暗色图标均已重新设计。</li>
+            <li>New Clipo icon. Both the default and dark-mode icons have been redesigned.</li>
+            <li>Beta 频道更新入口。切换频道可优先接收测试版更新。</li>
+            <li>Beta channel update entry. Switch channels to receive beta updates first.</li>
+            <li>修复 / Fixed</li>
+            <li>修复一些条件下面板的 Scrollbar 意外出现的问题。</li>
+            <li>Fixed an issue where a panel scrollbar could appear unexpectedly under certain conditions.</li>
+            <li>修复按照时间清理记录时确认弹窗反复弹出的问题。</li>
+            <li>Fixed an issue where the confirmation dialog could repeatedly appear when cleaning records by time.</li>
+            <li>其他细节修复。</li>
+            <li>Other minor fixes.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Sun, 06 Sep 2026 22:56:17 +0800</pubDate>
+    <enclosure 
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.0/Clipo_Sparkle.dmg"
+        sparkle:version="42" 
+        sparkle:shortVersionString="1.3.0"
+        length="16546583"
+        type="application/octet-stream"
+        sparkle:edSignature="KSAGskFMnvgY2C4M3ewy0Zf5eq+w7lC/JrQoHpLhDphjToFfdDpH6U24fGTDcUh807PF25uXw/kigHur+pt5Bw=="
+    />
+</item>
+<item>
     <title>Version 1.2.9.1</title>
     <description><![CDATA[
         <ul>
