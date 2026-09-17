@@ -46,14 +46,14 @@
             <li>Fixed an issue where card headers could incorrectly appear with rounded corners on macOS 26.</li>
         </ul>
     ]]></description>
-    <pubDate>Thu, 17 Sep 2026 15:16:35 +0800</pubDate>
+    <pubDate>Thu, 17 Sep 2026 16:06:30 +0800</pubDate>
     <enclosure 
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.2/Clipo_Sparkle.dmg"
-        sparkle:version="44" 
+        sparkle:version="45" 
         sparkle:shortVersionString="1.3.2"
-        length="16637497"
+        length="16608721"
         type="application/octet-stream"
-        sparkle:edSignature="D9VQxn/FJniYN4vEz3jlRPtSPE6jVqi+RLgnET1I0HGZHbO6KdtkzYwSVUmbKRioDMvDy5zBqi2icfZKbZ9mBQ=="
+        sparkle:edSignature="JaIv9O77F2ong5AWqyMApZTLsw9x4/948pI0fwBfWrNs+3rzijcs7k37pWMBbKmrXGyrew6lBiKbRHSyoDBbAg=="
     />
 </item>
 <item>
