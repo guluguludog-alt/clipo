@@ -4,6 +4,59 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.3.2</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo 1.3.2 已推出！</li>
+            <li>Clipo 1.3.2 is now available!</li>
+            <li>本次更新重点优化了快速预览体验，并重新设计了工作区的使用方式，让剪贴板内容的查看、筛选与整理更高效。</li>
+            <li>This update focuses on improving Quick Preview and redesigning how Workspaces are used, making clipboard content easier to view, filter, and organize.</li>
+            <li>新增 / New</li>
+            <li>全新快速预览 / All-New Quick Preview</li>
+            <li>将鼠标悬停在剪贴板卡片上，即可自动显示对应内容的快速预览。</li>
+            <li>Hover over a clipboard card to automatically show a quick preview of its content.</li>
+            <li>支持按住空格键预览当前选中的卡片。</li>
+            <li>Hold the Space key to preview the currently selected card.</li>
+            <li>快速预览可在设置中关闭，触发方式支持「鼠标悬停」和「按下空格」两种。</li>
+            <li>Quick Preview can be turned off in Settings, with two trigger options: Hover and Press Space.</li>
+            <li>可直接选中预览中的文字，并通过顶栏按钮或右键菜单复制所选内容。</li>
+            <li>Select text directly in the preview and copy it via the toolbar button or the context menu.</li>
+            <li>工作区升级 / Workspaces Upgrade</li>
+            <li>原「集锦」功能升级为「工作区」，用于集中整理不同项目或场景下的剪贴板记录。</li>
+            <li>Collections are now Workspaces, making it easier to organize clipboard records for different projects or scenarios.</li>
+            <li>可直接在剪贴板面板中切换工作区，快速筛选当前工作区的内容。</li>
+            <li>Switch Workspaces directly in the clipboard panel to quickly filter its contents.</li>
+            <li>再次点击已选中的工作区，即可取消筛选并返回全部历史记录。</li>
+            <li>Click the selected Workspace again to clear the filter and return to the full history.</li>
+            <li>支持将常用工作区固定在面板中，最多可显示 5 个。</li>
+            <li>Pin frequently used Workspaces in the panel, with up to 5 shown.</li>
+            <li>新增「自动加入当前工作区」选项：选中工作区后，新产生的剪贴板记录会自动归入该工作区。</li>
+            <li>Added an Auto-add to Current Workspace option: new clipboard records are automatically added to the selected Workspace.</li>
+            <li>「收集到工作区」快捷键会将当前选中内容保存到剪贴板历史，并同步加入所选工作区。</li>
+            <li>The Collect to Workspace shortcut saves the selected content to clipboard history and adds it to the chosen Workspace.</li>
+            <li>工作区与无限画布现已解耦，画布可独立创建、切换、重命名和删除。</li>
+            <li>Workspaces and the Infinite Canvas are now decoupled, so canvases can be created, switched, renamed, and deleted independently.</li>
+            <li>旧版画布数据会自动迁移并完整保留。</li>
+            <li>Legacy canvas data is migrated automatically and preserved.</li>
+            <li>记录类别可修改 / Editable Record Category</li>
+            <li>文本、表格、代码类卡片现在支持修改记录类别。</li>
+            <li>Text, table, and code cards can now have their record category changed.</li>
+            <li>修复 / Fixed</li>
+            <li>修复了 macOS 26 下卡片顶栏异常出现圆角的问题。</li>
+            <li>Fixed an issue where card headers could incorrectly appear with rounded corners on macOS 26.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Thu, 17 Sep 2026 15:16:35 +0800</pubDate>
+    <enclosure 
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.2/Clipo_Sparkle.dmg"
+        sparkle:version="44" 
+        sparkle:shortVersionString="1.3.2"
+        length="16637497"
+        type="application/octet-stream"
+        sparkle:edSignature="D9VQxn/FJniYN4vEz3jlRPtSPE6jVqi+RLgnET1I0HGZHbO6KdtkzYwSVUmbKRioDMvDy5zBqi2icfZKbZ9mBQ=="
+    />
+</item>
+<item>
     <title>Version 1.3.1</title>
     <description><![CDATA[
         <ul>
