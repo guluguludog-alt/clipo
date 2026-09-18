@@ -4,6 +4,27 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.3.3 Beta 1</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo 1.3.3 Beta 1</li>
+            <li>新增 / New</li>
+            <li>支持 macOS 15。</li>
+            <li>Added support for macOS 15.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Sat, 19 Sep 2026 00:40:46 +0800</pubDate>
+    <sparkle:channel>beta</sparkle:channel>
+    <enclosure 
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.3-beta.1/Clipo_Sparkle.dmg"
+        sparkle:version="46" 
+        sparkle:shortVersionString="1.3.3 Beta 1"
+        length="16736644"
+        type="application/octet-stream"
+        sparkle:edSignature="F1EFYGIFLrp1JvImaIjo/uH/Zy1xcvXV82Eb6yD4ks95DoupQvCnLzifKktAQ5zlkLrpODTKvgL5q2P4+SSvCA=="
+    />
+</item>
+<item>
     <title>Version 1.3.2</title>
     <description><![CDATA[
         <ul>
