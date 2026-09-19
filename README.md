@@ -1,88 +1,96 @@
 <p align="center">
-  <img src="assets/01-hero.png" alt="Clipo" width="100%" />
+  <img src="assets/clipo-new-icon.png" alt="Clipo app icon" width="240" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/platform-macOS-000000?style=flat&logo=apple&logoColor=white" alt="Platform: macOS" />
   <img src="https://img.shields.io/badge/Swift-5.0%2B-F05138?style=flat&logo=swift&logoColor=white" alt="Swift 5.0+" />
-  <img src="https://img.shields.io/badge/AI-OpenAI--compatible-5319E7?style=flat" alt="OpenAI-compatible AI" />
+  <img src="https://img.shields.io/badge/minimum%20macOS-15.0%2B-5319E7?style=flat&logo=apple&logoColor=white" alt="Minimum macOS: 15.0+" />
   <img src="https://img.shields.io/badge/storage-local--first-2EA44F?style=flat" alt="Local-first storage" />
 </p>
 
 <p align="center">
-  <a href="#中文版本">中文</a> | <a href="#english-version">English</a>
+  <a href="#中文版本">Chinese</a> | <a href="#english-version">English</a>
 </p>
 
-如果 Clipo 对你有帮助，欢迎在项目主页给个 star，也欢迎提交 Issue 和 PR。
+If Clipo helps you, consider giving the project a star and opening an Issue or Pull Request.
 
-**Clipboard context is everything**。
+**Clipboard context is everything.**
 
-Clipo 是一款面向 macOS 的悬浮式、可接入 AI 的剪贴板与文件中转中心。它把复制过的文字、链接、图片、文件、富文本、表格和代码片段统一保存为可视化卡片，让剪贴、搜索、粘贴、文件传输、AirDrop 和 AI 处理都集中在一个快速面板中完成。
+Clipo is a floating, AI-ready clipboard and file transfer hub for macOS. It turns copied text, links, images, files, rich text, tables, and code snippets into visual cards, bringing recall, search, paste, file transfer, AirDrop, and AI workflows into one fast panel.
 
-它不是一个简单的剪贴板历史列表，而是一个随手可调出的本地信息中转站：可以放在屏幕底部、左右边缘，或者通过中键在鼠标附近打开。历史数据优先保存在本地，AI 服务使用 OpenAI Compatible 接口，可由用户自行配置。
+More than a clipboard history list, Clipo is a local information hub that can appear at the bottom of the screen, along either edge, or near the pointer with middle-click. History is stored locally first, while AI features use a user-configured OpenAI-compatible endpoint.
 
-> 本项目正在持续更新，部分功能可能调整，本文档也可能暂时不完整或存在偏差。
->
-> This project is currently being updated. Some features may change, and this guide may be incomplete or contain errors.
+> This project is actively evolving. Some features may change, and this guide may be incomplete or contain errors.
 
-> 当前源码版本：**1.3.2 (Build 45)** · 系统要求：**macOS 15.0+**
->
 > Current source version: **1.3.2 (Build 45)** · Requirement: **macOS 15.0+**
 
-## 功能
+## Features
 
-- **可视化剪贴板历史**：支持文本、链接、文章、代码、表格、图片、文件、音频、视频和 3D/模型数据。
-- **文件中转站**：临时保存复制或拖入的文件，支持固定、拖拽、粘贴和快速调用。
-- **快捷 AirDrop**：发送单个记录、多选记录、图片或文件。
-- **AI 搜索与处理**：支持语义搜索、总结、改写、翻译、清理、比较和内容生成。
-- **多种粘贴方式**：普通粘贴、纯文本粘贴、合并粘贴、拖拽粘贴和中键粘贴。
-- **灵活的面板入口**：支持快捷键、屏幕边缘、中键、鼠标附近和菜单栏入口。
-- **标签与分类**：自动识别记录类型，支持自定义标签、筛选和查找相似记录。
-- **集锦与无限画布**：将记录整理到集锦，并在无限画布中自由排布、连线、标注和导出。
-- **局域网同步（Beta）**：在同一局域网内，在已配对设备之间同步剪贴板数据。
-- **CLI 与 MCP**：从终端、脚本或本地 MCP 客户端访问剪贴板历史、集锦和快速工具。
-- **自定义导出与文件瘦身**：将历史导出为 TXT、Markdown、HTML、JSON、CSV、XLSX、RTF、DOCX 或 PDF，并压缩图片与 PDF。
-- **智能截图与编辑**：支持截图、OCR、翻译、文本擦除，以及图片快速编辑。
-- **排序与批量操作**：支持按时间从新到旧排序、将多选记录置于最前，以及批量保存到文件夹。
-- **网页快速预览**：在快速预览窗口内加载网页，并显示复制时间；可在默认浏览器打开，网页资源在关闭后及时释放。
-- **本地存储与隐私**：历史记录保存在本地，API Key 使用加密存储，敏感记录支持加密。
-- **存储空间管理**：支持缓存上限、旧记录清理、固定项保留和 AI 清理建议。
+- **Visual clipboard history**: Supports text, links, articles, code, tables, images, files, audio, video, and 3D/model data.
+- **File transfer station**: Temporarily keeps copied or dragged files available for pinning, dragging, pasting, and quick access.
+- **Quick AirDrop**: Sends single records, multiple selected records, images, or files.
+- **AI search and processing**: Supports semantic search, summarization, rewriting, translation, cleanup, comparison, and content generation.
+- **Multiple paste methods**: Normal paste, plain-text paste, merge paste, drag-and-drop paste, and middle-click paste.
+- **Flexible access**: Open Clipo with shortcuts, screen edges, middle-click, near-mouse mode, or the menu bar.
+- **Tags and categories**: Automatically classifies records and supports custom tags, filters, and similar-record search.
+- **Collections and Infinite Canvas**: Group records and arrange them freely with connections, annotations, and export support.
+- **LAN Sync (Beta)**: Sync clipboard data between paired devices on the same local network.
+- **CLI and MCP**: Access clipboard history, collections, and quick tools from terminals, scripts, or compatible local clients.
+- **Custom export and file slimming**: Export to TXT, Markdown, HTML, JSON, CSV, XLSX, RTF, DOCX, or PDF, and compress images or PDFs.
+- **Smart Screenshot and editing**: Capture screenshots, run OCR, translate, remove text, and edit images quickly.
+- **Sorting and batch operations**: Sort newest-first, move multiple selected records to the front, and save several records to a folder.
+- **Web quick preview**: Preview web pages in Clipo, see copy time, open links in the default browser, and release web resources when the preview closes.
+- **Local-first privacy**: Keeps history local, stores API keys securely, and supports encrypted records.
+- **Storage management**: Supports cache limits, old-record cleanup, pinned-item protection, and AI cleanup suggestions.
 
-## 界面预览
+## Interface Preview
 
 <p align="center">
-  <img src="assets/06-history-search.png" alt="剪贴板历史与搜索" width="90%" />
+  <img src="assets/screenshot.png" alt="Smart Screenshots" width="90%" />
   <br />
-  <sub>以可视化卡片浏览和搜索剪贴板历史</sub>
+  <sub>Smart Screenshots with OCR, translation, markup, table extraction, and long screenshots</sub>
 </p>
 
 <p align="center">
-  <img src="assets/05-toolbar.png" alt="悬浮工具栏" width="90%" />
+  <img src="assets/lan-sync.png" alt="LAN Sync" width="90%" />
   <br />
-  <sub>通过悬浮工具栏快速筛选、分类和管理记录</sub>
+  <sub>End-to-end encrypted clipboard synchronization over the local network</sub>
 </p>
 
 <p align="center">
-  <img src="assets/04-ai.png" alt="AI 功能" width="90%" />
+  <img src="assets/pomodoro.png" alt="Pomodoro" width="90%" />
   <br />
-  <sub>将一个或多个剪贴板记录交给 AI 搜索和处理</sub>
+  <sub>Pomodoro and stopwatch tools for focused work</sub>
 </p>
 
 <p align="center">
-  <img src="assets/07-airdrop.png" alt="快捷 AirDrop" width="90%" />
+  <img src="assets/stack-paste.png" alt="Stack Paste" width="90%" />
   <br />
-  <sub>从面板快速发送文件、图片和剪贴板记录</sub>
+  <sub>Collect copied items and paste them in sequence</sub>
 </p>
 
 <p align="center">
-  <img src="assets/02-storage.png" alt="存储空间管理" width="90%" />
+  <img src="assets/ai.png" alt="AI-powered clipboard search" width="90%" />
   <br />
-  <sub>查看缓存占用并清理历史记录</sub>
+  <sub>Fuzzy search, image search, and AI cleanup for clipboard history</sub>
+</p>
+
+<p align="center">
+  <img src="assets/more-tools.png" alt="Quick tools" width="90%" />
+  <br />
+  <sub>Window Pinning, Stack Paste, Infinite Canvas, SmartShot, and Pomodoro</sub>
+</p>
+
+<p align="center">
+  <img src="assets/clipboard-management.png" alt="Clipboard management" width="90%" />
+  <br />
+  <sub>Browse and manage clipboard records as visual cards</sub>
 </p>
 
 ## Quick Start
 
-### Homebrew 安装
+### Homebrew Installation
 
 ```bash
 brew tap guluguludog-alt/clipo
@@ -90,9 +98,9 @@ brew trust guluguludog-alt/clipo
 brew install --cask clipo
 ```
 
-也可以从项目 [Releases](https://github.com/guluguludog-alt/Clipo_Private/releases) 页面下载最新版本。
+You can also download the latest version from the project [Releases](https://github.com/guluguludog-alt/Clipo_Private/releases) page.
 
-## Latest Updates / 最新更新
+## Latest Updates
 
 ### English
 
@@ -104,23 +112,7 @@ brew install --cask clipo
 - **CLI and MCP**: Enable the command-line tool or the local MCP server from settings to use clipboard history and collections from terminals, scripts, Codex, or other compatible local clients. Locked records are not exposed through MCP.
 - **More utilities**: The latest source also includes custom export formats, image/PDF file slimming, Smart Screenshot OCR/translation, screenshot text editing, QR-code recognition, window pinning, and quick tools.
 
-### 中文
-
-- **历史整理**：面板和完整历史的右键菜单新增两级“排序”菜单，可按复制时间从新到旧排序，也可以将一条或多条选中记录置于历史列表最前。
-- **批量保存**：保存操作支持多选记录。遇到同名文件时会自动生成不冲突的文件名，单条记录缺失或不可用不会阻止其他记录继续保存。
-- **网页快速预览**：HTTP/HTTPS 链接可以在快速预览窗口内加载；菊花圈大小保持稳定，底部栏显示复制时间，右上角的“在默认浏览器中打开”按钮与 AirDrop 同行。网页使用非持久化数据存储，按需加载，关闭预览后及时停止加载并释放 WebView 资源。
-- **集锦与无限画布**：将记录整理到集锦，在画布中自由排布卡片、添加连线和标注，并按需要保存或导出。
-- **局域网同步（Beta）**：在同一局域网中配对 Clipo 设备，通过验证码确认后选择同步全部已有内容或仅同步新内容；同步数据使用端到端加密。
-- **CLI 与 MCP**：可在设置中启用命令行工具或本地 MCP 服务，从终端、脚本、Codex 或其他兼容客户端使用剪贴板历史和集锦；加密记录不会通过 MCP 暴露。
-- **更多工具**：最新源码还包含自定义导出、图片/PDF 文件瘦身、智能截图 OCR/翻译、截图文字编辑、二维码识别、窗口固定和快速工具等能力。
-
 ## Quick Guides
-
-### 中文快速指南
-
-[![中文快速指南](https://img.youtube.com/vi/F_4WICR8o4o/maxresdefault.jpg)](https://www.youtube.com/watch?v=F_4WICR8o4o)
-
-[观看中文快速指南](https://www.youtube.com/watch?v=F_4WICR8o4o)
 
 ### English Quick Guide
 
@@ -1003,3 +995,19 @@ Clipo 可以在关闭后记住面板位置和模式，下次打开时保持之�
 - 使用“排序”菜单恢复清晰的最新优先顺序，或将当前工作中的多条记录置于最前。
 - 归档多条记录时使用批量保存，并在分享前检查自动生成的文件名。
 - 网页链接可先用快速预览轻量查看，需要完整浏览时点击浏览器按钮。
+
+### 最新更新
+
+- **历史整理**：面板和完整历史的右键菜单新增两级“排序”菜单，可按复制时间从新到旧排序，也可以将一条或多条选中记录置于历史列表最前。
+- **批量保存**：保存操作支持多选记录。遇到同名文件时会自动生成不冲突的文件名，单条记录缺失或不可用不会阻止其他记录继续保存。
+- **网页快速预览**：HTTP/HTTPS 链接可以在快速预览窗口内加载；菊花圈大小保持稳定，底部栏显示复制时间，右上角的“在默认浏览器中打开”按钮与 AirDrop 同行。网页使用非持久化数据存储，按需加载，关闭预览后及时停止加载并释放 WebView 资源。
+- **集锦与无限画布**：将记录整理到集锦，在画布中自由排布卡片、添加连线和标注，并按需要保存或导出。
+- **局域网同步（Beta）**：在同一局域网中配对 Clipo 设备，通过验证码确认后选择同步全部已有内容或仅同步新内容；同步数据使用端到端加密。
+- **CLI 与 MCP**：可在设置中启用命令行工具或本地 MCP 服务，从终端、脚本、Codex 或其他兼容客户端使用剪贴板历史和集锦；加密记录不会通过 MCP 暴露。
+- **更多工具**：最新源码还包含自定义导出、图片/PDF 文件瘦身、智能截图 OCR/翻译、截图文字编辑、二维码识别、窗口固定和快速工具等能力。
+
+### 中文快速指南
+
+[![中文快速指南](https://img.youtube.com/vi/F_4WICR8o4o/maxresdefault.jpg)](https://www.youtube.com/watch?v=F_4WICR8o4o)
+
+[观看中文快速指南](https://www.youtube.com/watch?v=F_4WICR8o4o)
