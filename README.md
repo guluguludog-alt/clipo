@@ -1,22 +1,88 @@
-# Quick Guides
-本项目正在更新，一些功能可能调整，本指南可能不完整或有误。
+<p align="center">
+  <img src="assets/01-hero.png" alt="Clipo" width="100%" />
+</p>
 
-This project is currently being updated. Some features may be adjusted, and this guide may be incomplete or contain errors.
-## 中文快速指南
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-macOS-000000?style=flat&logo=apple&logoColor=white" alt="Platform: macOS" />
+  <img src="https://img.shields.io/badge/Swift-5.0%2B-F05138?style=flat&logo=swift&logoColor=white" alt="Swift 5.0+" />
+  <img src="https://img.shields.io/badge/AI-OpenAI--compatible-5319E7?style=flat" alt="OpenAI-compatible AI" />
+  <img src="https://img.shields.io/badge/storage-local--first-2EA44F?style=flat" alt="Local-first storage" />
+</p>
 
-[![中文快速指南](https://img.youtube.com/vi/F_4WICR8o4o/maxresdefault.jpg)](https://www.youtube.com/watch?v=F_4WICR8o4o)
+<p align="center">
+  <a href="#中文版本">中文</a> | <a href="#english-version">English</a>
+</p>
 
-[观看中文快速指南](https://www.youtube.com/watch?v=F_4WICR8o4o)
+如果 Clipo 对你有帮助，欢迎在项目主页给个 star，也欢迎提交 Issue 和 PR。
 
-## English Quick Guide
+**Clipboard context is everything**。
 
-[![English Quick Guide](https://img.youtube.com/vi/Z2NndflBPVw/maxresdefault.jpg)](https://www.youtube.com/watch?v=Z2NndflBPVw)
+Clipo 是一款面向 macOS 的悬浮式、可接入 AI 的剪贴板与文件中转中心。它把复制过的文字、链接、图片、文件、富文本、表格和代码片段统一保存为可视化卡片，让剪贴、搜索、粘贴、文件传输、AirDrop 和 AI 处理都集中在一个快速面板中完成。
 
-[Watch English Quick Guide](https://www.youtube.com/watch?v=Z2NndflBPVw)
+它不是一个简单的剪贴板历史列表，而是一个随手可调出的本地信息中转站：可以放在屏幕底部、左右边缘，或者通过中键在鼠标附近打开。历史数据优先保存在本地，AI 服务使用 OpenAI Compatible 接口，可由用户自行配置。
 
-# Homebrew Installation
+> 本项目正在持续更新，部分功能可能调整，本文档也可能暂时不完整或存在偏差。
+>
+> This project is currently being updated. Some features may change, and this guide may be incomplete or contain errors.
 
-You can install Clipo via Homebrew with the following commands:
+> 当前源码版本：**1.3.2 (Build 45)** · 系统要求：**macOS 15.0+**
+>
+> Current source version: **1.3.2 (Build 45)** · Requirement: **macOS 15.0+**
+
+## 功能
+
+- **可视化剪贴板历史**：支持文本、链接、文章、代码、表格、图片、文件、音频、视频和 3D/模型数据。
+- **文件中转站**：临时保存复制或拖入的文件，支持固定、拖拽、粘贴和快速调用。
+- **快捷 AirDrop**：发送单个记录、多选记录、图片或文件。
+- **AI 搜索与处理**：支持语义搜索、总结、改写、翻译、清理、比较和内容生成。
+- **多种粘贴方式**：普通粘贴、纯文本粘贴、合并粘贴、拖拽粘贴和中键粘贴。
+- **灵活的面板入口**：支持快捷键、屏幕边缘、中键、鼠标附近和菜单栏入口。
+- **标签与分类**：自动识别记录类型，支持自定义标签、筛选和查找相似记录。
+- **集锦与无限画布**：将记录整理到集锦，并在无限画布中自由排布、连线、标注和导出。
+- **局域网同步（Beta）**：在同一局域网内，在已配对设备之间同步剪贴板数据。
+- **CLI 与 MCP**：从终端、脚本或本地 MCP 客户端访问剪贴板历史、集锦和快速工具。
+- **自定义导出与文件瘦身**：将历史导出为 TXT、Markdown、HTML、JSON、CSV、XLSX、RTF、DOCX 或 PDF，并压缩图片与 PDF。
+- **智能截图与编辑**：支持截图、OCR、翻译、文本擦除，以及图片快速编辑。
+- **排序与批量操作**：支持按时间从新到旧排序、将多选记录置于最前，以及批量保存到文件夹。
+- **网页快速预览**：在快速预览窗口内加载网页，并显示复制时间；可在默认浏览器打开，网页资源在关闭后及时释放。
+- **本地存储与隐私**：历史记录保存在本地，API Key 使用加密存储，敏感记录支持加密。
+- **存储空间管理**：支持缓存上限、旧记录清理、固定项保留和 AI 清理建议。
+
+## 界面预览
+
+<p align="center">
+  <img src="assets/06-history-search.png" alt="剪贴板历史与搜索" width="90%" />
+  <br />
+  <sub>以可视化卡片浏览和搜索剪贴板历史</sub>
+</p>
+
+<p align="center">
+  <img src="assets/05-toolbar.png" alt="悬浮工具栏" width="90%" />
+  <br />
+  <sub>通过悬浮工具栏快速筛选、分类和管理记录</sub>
+</p>
+
+<p align="center">
+  <img src="assets/04-ai.png" alt="AI 功能" width="90%" />
+  <br />
+  <sub>将一个或多个剪贴板记录交给 AI 搜索和处理</sub>
+</p>
+
+<p align="center">
+  <img src="assets/07-airdrop.png" alt="快捷 AirDrop" width="90%" />
+  <br />
+  <sub>从面板快速发送文件、图片和剪贴板记录</sub>
+</p>
+
+<p align="center">
+  <img src="assets/02-storage.png" alt="存储空间管理" width="90%" />
+  <br />
+  <sub>查看缓存占用并清理历史记录</sub>
+</p>
+
+## Quick Start
+
+### Homebrew 安装
 
 ```bash
 brew tap guluguludog-alt/clipo
@@ -24,16 +90,43 @@ brew trust guluguludog-alt/clipo
 brew install --cask clipo
 ```
 
+也可以从项目 [Releases](https://github.com/guluguludog-alt/Clipo_Private/releases) 页面下载最新版本。
 
-# Clipo — Software Introduction & User Manual  
-# Clipo — 软件介绍与用户手册
+## Latest Updates / 最新更新
 
-> A floating, AI-ready clipboard hub for macOS.  
-> 一个面向 macOS 的悬浮式、可接入 AI 的剪贴板与文件中转中心。
+### English
 
-![Clipo overview](assets/01-hero.png)
+- **History organization**: The panel and More History context menus now include a two-level **Sort** menu. You can sort history from newest to oldest by copy time, or move one or multiple selected records to the front.
+- **Batch saving**: Saving now supports multiple selected records. Clipo creates unique file names when necessary and reports missing or unavailable files without stopping the rest of the batch.
+- **Web quick preview**: HTTP/HTTPS links can be previewed inside the quick preview window. The loading indicator has a stable size, the copy time is shown in the bottom bar, and an **Open in Default Browser** button sits beside AirDrop. Web views use a non-persistent data store, load only when needed, and are torn down when the preview closes.
+- **Collections and Infinite Canvas**: Organize records into collections, open a collection canvas, arrange cards freely, add connections or annotations, and save or export the canvas when needed.
+- **LAN Sync (Beta)**: Pair Clipo devices on the same local network with a verification code, then choose whether to sync all existing content or new content only. Sync data is end-to-end encrypted.
+- **CLI and MCP**: Enable the command-line tool or the local MCP server from settings to use clipboard history and collections from terminals, scripts, Codex, or other compatible local clients. Locked records are not exposed through MCP.
+- **More utilities**: The latest source also includes custom export formats, image/PDF file slimming, Smart Screenshot OCR/translation, screenshot text editing, QR-code recognition, window pinning, and quick tools.
 
----
+### 中文
+
+- **历史整理**：面板和完整历史的右键菜单新增两级“排序”菜单，可按复制时间从新到旧排序，也可以将一条或多条选中记录置于历史列表最前。
+- **批量保存**：保存操作支持多选记录。遇到同名文件时会自动生成不冲突的文件名，单条记录缺失或不可用不会阻止其他记录继续保存。
+- **网页快速预览**：HTTP/HTTPS 链接可以在快速预览窗口内加载；菊花圈大小保持稳定，底部栏显示复制时间，右上角的“在默认浏览器中打开”按钮与 AirDrop 同行。网页使用非持久化数据存储，按需加载，关闭预览后及时停止加载并释放 WebView 资源。
+- **集锦与无限画布**：将记录整理到集锦，在画布中自由排布卡片、添加连线和标注，并按需要保存或导出。
+- **局域网同步（Beta）**：在同一局域网中配对 Clipo 设备，通过验证码确认后选择同步全部已有内容或仅同步新内容；同步数据使用端到端加密。
+- **CLI 与 MCP**：可在设置中启用命令行工具或本地 MCP 服务，从终端、脚本、Codex 或其他兼容客户端使用剪贴板历史和集锦；加密记录不会通过 MCP 暴露。
+- **更多工具**：最新源码还包含自定义导出、图片/PDF 文件瘦身、智能截图 OCR/翻译、截图文字编辑、二维码识别、窗口固定和快速工具等能力。
+
+## Quick Guides
+
+### 中文快速指南
+
+[![中文快速指南](https://img.youtube.com/vi/F_4WICR8o4o/maxresdefault.jpg)](https://www.youtube.com/watch?v=F_4WICR8o4o)
+
+[观看中文快速指南](https://www.youtube.com/watch?v=F_4WICR8o4o)
+
+### English Quick Guide
+
+[![English Quick Guide](https://img.youtube.com/vi/Z2NndflBPVw/maxresdefault.jpg)](https://www.youtube.com/watch?v=Z2NndflBPVw)
+
+[Watch English Quick Guide](https://www.youtube.com/watch?v=Z2NndflBPVw)
 
 ## English Version
 
@@ -49,16 +142,19 @@ Unlike a traditional clipboard history list, Clipo is designed as a quick-access
 |---|---|
 | Clipboard Management | Automatically captures clipboard history and displays it as visual cards. |
 | File Transfer Station | Temporarily stores copied or dragged files for quick access, pinning, dragging, and pasting. |
-| Quick AirDrop | Send files, images, or selected clipboard records through AirDrop with fewer steps. |
-| AI Extension | Search, summarize, edit, translate, clean, and process clipboard content using your own AI model endpoint. |
-| Storage Management | Set cache limits, clear old records, and use AI to identify invalid or unnecessary records. |
-| Privacy & Security | Clipboard data is stored locally; API keys are saved through encrypted storage; sensitive records can be encrypted. |
-| Flexible Access | Open the panel by shortcut, screen edge, middle mouse button, or near-mouse mode. |
-| Multiple Paste Methods | Paste normally, paste as plain text, merge paste, drag-and-drop paste, and middle-click paste. |
+| Quick AirDrop | Sends files, images, or selected clipboard records through AirDrop with fewer steps. |
+| AI Extension | Searches, summarizes, edits, translates, cleans, and processes clipboard content using your own AI endpoint. |
+| Storage Management | Sets cache limits, clears old records, and uses AI to identify invalid or unnecessary records. |
+| Privacy & Security | Stores clipboard data locally; API keys use encrypted storage; sensitive records can be encrypted. |
+| Flexible Access | Opens the panel by shortcut, screen edge, middle mouse button, or near-mouse mode. |
+| Multiple Paste Methods | Supports normal paste, plain-text paste, merge paste, drag-and-drop paste, and middle-click paste. |
+| Collections & Infinite Canvas | Groups related records and arranges them on a zoomable workspace. |
+| LAN Sync (Beta) | Pairs devices on the same local network and syncs encrypted clipboard data. |
+| CLI & MCP | Provides terminal, script, and compatible local-client access to permitted data. |
+| Quick Preview | Previews web links, shows copy time, and hands links off to the default browser. |
+| Export & File Slimming | Exports selected records to common formats and compresses supported images and PDFs. |
 
----
-
-## 3. Clipboard Management
+### 3. Clipboard Management
 
 ![Manage clipboard history](assets/06-history-search.png)
 
@@ -70,7 +166,7 @@ Supported record types include:
 - Rich text representations, plain text fallback, image thumbnails, original image data, and external file URLs.
 - Source app information, timestamp, paste count, last pasted time, tags, and pinned status.
 
-### 3.1 Visual Card Layout
+#### 3.1 Visual Card Layout
 
 Each clipboard item is shown as a card rather than a plain line of text. This makes it easier to distinguish screenshots, links, code, files, and text snippets at a glance.
 
@@ -83,7 +179,7 @@ A typical card can show:
 - Size information, such as image size, file size, or text character count.
 - Hover actions, delete button, pin menu, tag menu, encryption, AirDrop, and AI actions.
 
-### 3.2 More History Window
+#### 3.2 More History Window
 
 The More History window gives you a full-screen style management view for all clipboard records. It is useful when you want to search deeply, browse large history collections, or manage many records at once.
 
@@ -96,7 +192,7 @@ You can use it to:
 - Delete unwanted records.
 - Run AI-powered search for fuzzy or semantic queries.
 
-### 3.3 Tags, Categories, and Similar Records
+#### 3.3 Tags, Categories, and Similar Records
 
 ![Floating toolbar](assets/05-toolbar.png)
 
@@ -110,19 +206,32 @@ Useful organization tools include:
 - **Find Similar Records**: Locate clipboard items that are similar to a selected card.
 - **Multi-select**: Select several cards for batch operations, deletion, merge paste, AI processing, or AirDrop.
 
----
+#### 3.4 Collections and Infinite Canvas
 
-## 4. File Transfer Station
+Collections provide a higher-level way to group related clipboard records. You can create a collection, add records to it, and optionally collect new records into the currently selected collection.
+
+The Infinite Canvas view lets you arrange collection items freely instead of keeping them in a simple list. Depending on the workflow, you can connect cards, add annotations or shapes, zoom and pan around the workspace, and save or export the result.
+
+#### 3.5 Sort, Move to Front, and Batch Save
+
+The context menu in both the main panel and More History includes a two-level Sort menu:
+
+- **Sort by Time**: Sorts clipboard history from newest to oldest by copy time.
+- **Move to Front**: Moves the selected card or all selected cards to the beginning of history.
+
+Multi-select actions also support saving several records to a chosen folder. Clipo keeps the operation resilient by generating unique names and continuing when an individual source file is missing.
+
+### 4. File Transfer Station
 
 Clipo is not only a clipboard history app. It also works as a temporary file transfer station.
 
 You can copy or drag files into Clipo, then quickly reuse them later without searching Finder again. This is especially useful for screenshots, icons, PDFs, design assets, documents, downloaded files, and files that need to be sent to multiple apps.
 
-### 4.1 Pin Files and Folders for Quick Access
+#### 4.1 Pin Files and Folders for Quick Access
 
 ![Pin files and organize toolbar](assets/05-toolbar.png)
 
-Files can be pinned for temporary or permanent access. Available pin durations include short-term options such as 1 hour, 3 hours, 12 hours, one day, one week, and forever.
+Files can be pinned for temporary or permanent access. Available pin durations include 1 hour, 3 hours, 12 hours, one day, one week, and forever.
 
 Use pinned files when you need to:
 
@@ -131,7 +240,7 @@ Use pinned files when you need to:
 - Keep project assets available during a working session.
 - Prevent important records from being removed during cleanup.
 
-### 4.2 Drag & Drop Paste
+#### 4.2 Drag & Drop Paste
 
 ![Multiple paste methods](assets/08-paste-methods.png)
 
@@ -146,13 +255,17 @@ Typical workflow:
 
 The app also supports drag-back cancellation, so you can cancel an accidental drag without changing your workflow.
 
-### 4.3 Open in Finder and Open File
+#### 4.3 Open in Finder and Open File
 
 For file-based records, Clipo can open the file directly or reveal it in Finder. This makes it useful as a lightweight file launcher for recently copied or pinned items.
 
----
+#### 4.4 Custom Export and File Slimming
 
-## 5. Quick AirDrop
+Custom Export lets you filter records by keyword, tags, categories, and time range, then export the selected content as TXT, Markdown, HTML, JSON, CSV, XLSX, RTF, DOCX, or PDF.
+
+File Slimming is designed for image and PDF files. It provides light, balanced, and extreme compression profiles, reports the estimated or final size, and keeps the original file separate from the compressed output.
+
+### 5. Quick AirDrop
 
 ![Quick AirDrop](assets/07-airdrop.png)
 
@@ -166,7 +279,7 @@ You can AirDrop:
 - Images or file records stored in history.
 - Text content when a record can be shared as text.
 
-### 5.1 How to Use Quick AirDrop
+#### 5.1 How to Use Quick AirDrop
 
 1. Open the Clipo panel.
 2. Select or drag the item you want to send.
@@ -175,7 +288,7 @@ You can AirDrop:
 
 This reduces the need to open Finder, locate a file, right-click, choose Share, then choose AirDrop manually.
 
-### 5.2 AirDrop + Pin Drop Zone
+#### 5.2 AirDrop + Pin Drop Zone
 
 Clipo’s external file utility area can expose two drop targets:
 
@@ -184,15 +297,13 @@ Clipo’s external file utility area can expose two drop targets:
 
 This turns the panel into a small transfer dock for daily file movement.
 
----
-
-## 6. AI-Powered Clipboard Features
+### 6. AI-Powered Clipboard Features
 
 ![Ask AI](assets/04-ai.png)
 
 Clipo can connect to an OpenAI-compatible API endpoint. You can configure your own Base URL, API Key, and Model ID, then use AI to search, summarize, rewrite, translate, clean, or process clipboard records.
 
-### 6.1 AI Search
+#### 6.1 AI Search
 
 AI search is useful when keyword search is not enough. You can ask natural-language questions such as:
 
@@ -204,7 +315,7 @@ AI search is useful when keyword search is not enough. You can ask natural-langu
 
 AI can search based on content relevance, semantic meaning, source app, copied time, and image descriptions when image indexing is enabled.
 
-### 6.2 Ask AI About Clipboard Items
+#### 6.2 Ask AI About Clipboard Items
 
 You can send one or multiple clipboard cards to the AI window and ask Clipo to process them.
 
@@ -218,11 +329,11 @@ Examples:
 - Compare several copied records.
 - Generate a reply based on copied context.
 
-### 6.3 Send Multiple Clipboard Items to AI
+#### 6.3 Send Multiple Clipboard Items to AI
 
 Clipo supports sending multiple selected items into the AI input area. This is useful when you want the model to combine information from several records, such as multiple quotes, screenshots, links, text fragments, or files.
 
-### 6.4 AI Edit, Delete, and Clipboard Actions
+#### 6.4 AI Edit, Delete, and Clipboard Actions
 
 Clipo can optionally allow AI to modify or delete clipboard records. This is controlled by a setting, so AI cannot change your history unless you enable that permission.
 
@@ -233,7 +344,7 @@ When enabled, AI can help with tasks such as:
 - Show matching records as cards in the AI conversation.
 - Clean up useless or duplicate content after your review.
 
-### 6.5 AI Image Indexing
+#### 6.5 AI Image Indexing
 
 If your model supports vision, Clipo can generate image descriptions for image records. This makes visual clipboard history searchable by meaning instead of only by file name.
 
@@ -244,25 +355,29 @@ For example, you can search for:
 - “the blue icon image”
 - “the La La Land poster”
 
----
+#### 6.6 CLI and MCP
 
-## 7. Storage Space Management
+Clipo includes an optional command-line tool for terminal and script workflows. The CLI can query clipboard status, read or set the current clipboard, list and search history, inspect or copy records, manage pinned items, work with collections, export records, open Clipo views, and run enabled tools.
+
+Clipo also includes a local MCP server for compatible clients such as Codex. MCP access is explicitly enabled in settings, uses a stable per-user configuration path, and does not expose locked records.
+
+### 7. Storage Space Management
 
 ![Storage management](assets/02-storage.png)
 
 Clipo includes a storage page for controlling how much disk space clipboard history can use.
 
-### 7.1 Cache Limit
+#### 7.1 Cache Limit
 
-You can set a maximum cache size. Available tiers include common limits such as 500 MB, 1 GB, 2 GB, 5 GB, and 10 GB.
+You can set a maximum cache size. Available tiers include 500 MB, 1 GB, 2 GB, 5 GB, and 10 GB.
 
 When storage usage exceeds the selected limit, Clipo can remove older records until usage falls below the limit. Pinned records can be protected depending on the cleanup option you choose.
 
-### 7.2 Clear All Records
+#### 7.2 Clear All Records
 
 You can clear all clipboard records and temporary drag files. Clipo can also keep pinned records if you choose to preserve them.
 
-### 7.3 AI Cleanup
+#### 7.3 AI Cleanup
 
 AI Cleanup helps identify records that may no longer be useful.
 
@@ -278,73 +393,73 @@ Available cleanup criteria include:
 
 Clipo filters results first, then lets you review the selected records before deletion.
 
----
-
-## 8. Privacy, Local Data, and Encryption
+### 8. Privacy, Local Data, and Encryption
 
 ![Privacy and encryption](assets/03-privacy.png)
 
 Clipo is designed around local-first clipboard storage.
 
-### 8.1 Local Storage
+#### 8.1 Local Storage
 
 Clipboard history is stored locally on your Mac. The app keeps its history and cache under the app’s local application support area.
 
-### 8.2 API Key Protection
+#### 8.2 API Key Protection
 
 Your AI API key is stored through encrypted keychain-based storage rather than plain UserDefaults. The AI settings page uses a secure input field for the key.
 
-### 8.3 Encrypted Clipboard Records
+#### 8.3 Encrypted Clipboard Records
 
 Clipo supports encrypted records. You can encrypt a card manually, or configure sensitive apps so clipboard records from those apps are automatically locked.
 
 Encrypted records can require macOS authentication, such as password or Touch ID, before they are unlocked.
 
-### 8.4 Exclusions
+#### 8.4 Exclusions
 
 You can exclude specific apps from clipboard history capture. You can also exclude apps from middle-click panel activation to avoid conflicts in apps where middle click has another purpose.
 
----
-
-## 9. Multiple Paste Methods
+### 9. Multiple Paste Methods
 
 ![Multiple paste methods](assets/08-paste-methods.png)
 
 Clipo supports different paste workflows so you can choose the fastest method for each situation.
 
-### 9.1 Normal Paste
+#### 9.1 Normal Paste
 
 Select a card and paste it into the frontmost app. Depending on your settings, the primary card action can be copy or paste.
 
-### 9.2 Double-Click or Enter Paste
+#### 9.2 Double-Click or Enter Paste
 
 You can configure what happens when you double-click a card or press Enter on a selected card. Common choices include paste, copy, or other card actions.
 
-### 9.3 Paste as Plain Text
+#### 9.3 Paste as Plain Text
 
 Use Paste as Plain Text to remove formatting and paste only clean text. This is useful when copying from websites, PDFs, emails, or documents with unwanted styling.
 
-### 9.4 Merge Paste
+#### 9.4 Merge Paste
 
 In multi-select mode, select several records and paste them together. This is useful for combining text snippets, links, notes, or multiple copied fragments into one output.
 
-### 9.5 Drag & Drop Paste
+#### 9.5 Drag & Drop Paste
 
 Drag images, files, and cards into compatible apps or upload areas.
 
-### 9.6 Middle-Click Paste
+#### 9.6 Middle-Click Paste
 
 The middle mouse button workflow lets you summon the panel, hover/select a card, and paste quickly without moving through a full window workflow.
 
----
+#### 9.7 Quick Preview and Web Links
 
-## 10. Multiple Panel Opening Methods and Positions
+The quick preview window follows the selected record type. Text, images, files, and links use appropriate lightweight previews. For HTTP/HTTPS links, Clipo creates the WebKit view only after a short dwell, uses a non-persistent website data store, and stops loading when the preview is dismissed to reduce memory and network overhead.
+
+The bottom bar shows the record’s copy time. For web records, **Open in Default Browser** is placed in the same toolbar row as AirDrop, so you can either inspect the page inside Clipo or hand it off to your normal browser.
+
+### 10. Multiple Panel Opening Methods and Positions
 
 ![Panel positions](assets/09-panel-positions.png)
 
 Clipo’s floating panel is designed to appear where it is most useful.
 
-### 10.1 Panel Positions
+#### 10.1 Panel Positions
 
 Supported panel positions include:
 
@@ -353,7 +468,7 @@ Supported panel positions include:
 - **Right edge**: A vertical panel along the right side.
 - **Near mouse**: A quick-access layout near the pointer, especially useful with middle-click workflows.
 
-### 10.2 Opening Methods
+#### 10.2 Opening Methods
 
 You can enable one or more ways to open Clipo:
 
@@ -362,48 +477,46 @@ You can enable one or more ways to open Clipo:
 - **Middle mouse button**: Press or hold the middle mouse button to open a near-mouse panel.
 - **Menu bar access**: Open settings, history, AI, and panel controls from the macOS menu bar icon.
 
-### 10.3 Release-to-Close
+#### 10.3 Release-to-Close
 
 Clipo can automatically close the panel when you release the shortcut key. This makes it feel like a quick command palette for clipboard actions.
 
 When text input is active in the panel, the panel should stay open so you can finish typing. You can close it by pressing Esc, clicking outside, or pressing the shortcut again.
 
-### 10.4 Remember Panel Mode
+#### 10.4 Remember Panel Mode
 
 Clipo can remember the panel state and position after closing, so the next opening feels consistent with your last workflow.
 
----
+### 11. Recommended Workflows
 
-## 11. Recommended Workflows
-
-### 11.1 Quick Paste a Recent Item
+#### 11.1 Quick Paste a Recent Item
 
 1. Copy anything from any app.
 2. Open Clipo with your shortcut.
 3. Select the card.
 4. Paste normally or as plain text.
 
-### 11.2 Reuse Files Across Apps
+#### 11.2 Reuse Files Across Apps
 
 1. Copy or drag a file into Clipo.
 2. Pin it for 1 hour, 12 hours, one week, or forever.
 3. Drag it into chat, browser, document editor, or upload field when needed.
 
-### 11.3 AirDrop a Recently Copied File
+#### 11.3 AirDrop a Recently Copied File
 
 1. Open the panel.
 2. Select the file record.
 3. Choose AirDrop or drop it into the AirDrop target.
 4. Pick the receiving device.
 
-### 11.4 Search Old Clipboard Records with AI
+#### 11.4 Search Old Clipboard Records with AI
 
 1. Open More History or AI mode.
 2. Type a natural-language query.
 3. Review the cards returned by AI.
 4. Paste, pin, tag, delete, or send them to AI for further processing.
 
-### 11.5 Clean Storage Safely
+#### 11.5 Clean Storage Safely
 
 1. Open Storage settings.
 2. Review used space and cache limit.
@@ -411,9 +524,7 @@ Clipo can remember the panel state and position after closing, so the next openi
 4. Review AI-filtered records before deleting.
 5. Keep pinned records if they are important.
 
----
-
-## 12. Settings Guide
+### 12. Settings Guide
 
 | Setting | Purpose |
 |---|---|
@@ -433,10 +544,16 @@ Clipo can remember the panel state and position after closing, so the next openi
 | Allow AI Delete/Modify | Give AI permission to modify or delete records. |
 | Encrypted Apps | Auto-lock clipboard content from sensitive apps. |
 | Excluded Apps | Prevent selected apps from being recorded or avoid middle-click conflicts. |
+| LAN Sync | Pair devices on the same local network and choose the initial sync scope. |
+| Collections | Create and manage grouped clipboard workspaces. |
+| Infinite Canvas | Arrange collection records on a zoomable canvas. |
+| Command Line Tool | Install or remove the `clipo` command for terminal workflows. |
+| MCP Server | Allow compatible local MCP clients to access permitted clipboard data. |
+| Custom Export | Export filtered records to common document, data, and text formats. |
+| File Slimming | Compress supported image and PDF files with selectable profiles. |
+| Smart Screenshot | Capture, OCR, translate, and edit screenshot text. |
 
----
-
-## 13. Tips
+### 13. Tips
 
 - Pin important files before clearing storage.
 - Use tags for projects or clients.
@@ -445,20 +562,19 @@ Clipo can remember the panel state and position after closing, so the next openi
 - Use the AirDrop drop zone for fast device-to-device transfer.
 - Keep AI readable limits reasonable if your history is very large.
 - Use encrypted records for sensitive copied content.
+- Use the Sort menu to restore a clear newest-first history or bring an active set of records to the front.
+- Use batch save when archiving several records, and check the generated file names before sharing them.
+- For links, use quick preview for a lightweight inspection and the browser button for full browsing.
 
----
+## 中文版本
 
-# 中文版本
-
-## 1. Clipo 是什么？
+### 1. Clipo 是什么？
 
 Clipo 是一款面向 macOS 的现代化剪贴板管理工具。它以悬浮式液态玻璃面板为核心，把你复制过的文字、链接、图片、文件、富文本、表格、代码片段等内容统一保存为可视化卡片，并支持快速搜索、调用、粘贴、固定、分类、文件中转、快捷 AirDrop 以及 AI 处理。
 
-它不是一个简单的剪贴板历史列表，而是一个“随手可调出的信息中转站”。你可以把它放在屏幕底部、屏幕左右边缘，或者通过中键在鼠标附近快速打开。它还支持多种粘贴方式、拖拽上传、AI 语义搜索、AI 清理和本地存储空间管理。
+它不是一个简单的剪贴板历史列表，而是一个随手可调出的信息中转站。你可以把它放在屏幕底部、屏幕左右边缘，或者通过中键在鼠标附近快速打开。它还支持多种粘贴方式、拖拽上传、AI 语义搜索、AI 清理和本地存储空间管理。
 
----
-
-## 2. 核心功能总览
+### 2. 核心功能总览
 
 | 功能模块 | 说明 |
 |---|---|
@@ -470,22 +586,25 @@ Clipo 是一款面向 macOS 的现代化剪贴板管理工具。它以悬浮式�
 | 隐私与加密 | 数据本地保存，API Key 使用加密存储，敏感记录可单独加密。 |
 | 多种打开方式 | 支持快捷键、屏幕边缘、中键、鼠标附近和菜单栏入口。 |
 | 多种粘贴方式 | 支持普通粘贴、纯文本粘贴、合并粘贴、拖拽粘贴和中键粘贴。 |
+| 集锦与无限画布 | 将相关记录分组，并在可缩放的工作区中自由排布。 |
+| 局域网同步（Beta） | 配对同一局域网中的设备，同步加密后的剪贴板数据。 |
+| CLI 与 MCP | 为终端、脚本和兼容的本地客户端提供授权数据访问能力。 |
+| 快速预览 | 预览网页链接、显示复制时间，并将链接交给默认浏览器打开。 |
+| 导出与文件瘦身 | 将选中记录导出为常见格式，并压缩支持的图片和 PDF。 |
 
----
-
-## 3. 剪贴板管理
+### 3. 剪贴板管理
 
 ![剪贴板历史管理](assets/06-history-search.png)
 
 Clipo 会自动监听 macOS 剪贴板，并把新的复制内容保存为历史卡片。每张卡片会保留关键上下文，例如来源应用、复制时间、内容预览、类型标签、文件大小或字符数、缩略图和应用图标等。
 
-支持记录的内容类型包括：
+支持的记录类型包括：
 
 - 文本、链接、文章、代码、表格、图片、文件、音频、视频、3D/模型数据以及普通剪贴板内容。
 - 富文本、纯文本备份、图片缩略图、原图数据和外部文件路径。
 - 来源应用、复制时间、粘贴次数、上次粘贴时间、标签、固定状态等信息。
 
-### 3.1 可视化卡片
+#### 3.1 可视化卡片
 
 Clipo 用卡片展示剪贴板，而不是一行行纯文本。这样你可以一眼区分截图、链接、代码、文件和文本片段。
 
@@ -498,7 +617,7 @@ Clipo 用卡片展示剪贴板，而不是一行行纯文本。这样你可以�
 - 大小信息，例如图片大小、文件大小或文本字符数。
 - 悬浮操作、删除、固定、标签、加密、AirDrop、AI 等快捷入口。
 
-### 3.2 更多历史窗口
+#### 3.2 更多历史窗口
 
 “More History” 窗口适合集中管理全部剪贴板记录。当历史很多、需要检索旧内容或批量整理时，可以进入这个大窗口。
 
@@ -511,7 +630,7 @@ Clipo 用卡片展示剪贴板，而不是一行行纯文本。这样你可以�
 - 删除无用记录。
 - 使用 AI 进行模糊搜索和语义搜索。
 
-### 3.3 标签、分类与相似记录
+#### 3.3 标签、分类与相似记录
 
 ![悬浮工具栏](assets/05-toolbar.png)
 
@@ -525,15 +644,28 @@ Clipo 顶部工具栏可以快速整理历史记录。你可以按 Code、Articl
 - **查找相似记录**：根据当前卡片查找相似内容。
 - **多选模式**：一次选择多个卡片，用于批量删除、合并粘贴、AI 处理或 AirDrop。
 
----
+#### 3.4 集锦与无限画布
 
-## 4. 文件中转站
+集锦用于把相关的剪贴板记录放在同一个工作区中。你可以创建集锦、向其中添加记录，也可以在设置中让新复制的内容自动加入当前选中的集锦。
+
+无限画布不再把记录限制在简单列表中，而是允许你自由排布集锦中的卡片。根据需要，你可以缩放和移动画布、连接卡片、添加文字或图形标注，并保存或导出结果。
+
+#### 3.5 排序、置于最前与批量保存
+
+面板和完整历史的右键菜单都包含两级“排序”菜单：
+
+- **按时间排序**：按照复制时间从新到旧排列剪贴板历史。
+- **置于最前**：将当前选中的一条或多条记录移动到历史列表最前。
+
+多选操作也支持将多条记录保存到指定文件夹。遇到同名文件时会自动生成不冲突的文件名；某条源文件不存在时，其余记录仍会继续处理。
+
+### 4. 文件中转站
 
 Clipo 不只是剪贴板历史工具，它也可以作为临时文件中转站。
 
 你可以把复制过的文件或拖入的文件保存在 Clipo 中，之后不用再打开 Finder 查找，就能快速再次使用。它尤其适合截图、图标、PDF、设计素材、文档、下载文件，以及需要反复发送到不同应用的附件。
 
-### 4.1 固定文件和文件夹
+#### 4.1 固定文件和文件夹
 
 ![固定文件与工具栏](assets/05-toolbar.png)
 
@@ -546,7 +678,7 @@ Clipo 不只是剪贴板历史工具，它也可以作为临时文件中转站�
 - 工作过程中临时保存项目素材。
 - 清理历史记录时保护重要文件不被删除。
 
-### 4.2 拖拽粘贴
+#### 4.2 拖拽粘贴
 
 ![多种粘贴方式](assets/08-paste-methods.png)
 
@@ -561,13 +693,17 @@ Clipo 不只是剪贴板历史工具，它也可以作为临时文件中转站�
 
 Clipo 还支持拖回取消，避免误拖后产生不必要的操作。
 
-### 4.3 在 Finder 中显示与打开文件
+#### 4.3 在 Finder 中显示与打开文件
 
 对于文件类型记录，Clipo 可以直接打开文件，也可以在 Finder 中定位文件。这让它可以作为一个轻量的近期文件启动器。
 
----
+#### 4.4 自定义导出与文件瘦身
 
-## 5. 快捷 AirDrop
+自定义导出支持按关键词、标签、类别和时间范围筛选记录，再将选中的内容导出为 TXT、Markdown、HTML、JSON、CSV、XLSX、RTF、DOCX 或 PDF。
+
+文件瘦身主要面向图片和 PDF 文件，提供轻度、均衡和极限压缩档位，并显示预计或最终大小；压缩输出会与原文件分开保存。
+
+### 5. 快捷 AirDrop
 
 ![快捷 AirDrop](assets/07-airdrop.png)
 
@@ -581,7 +717,7 @@ Clipo 内置快捷 AirDrop 工作流，既支持剪贴板记录，也支持外�
 - 历史中的图片或文件卡片。
 - 可分享为文本的剪贴板内容。
 
-### 5.1 如何使用快捷 AirDrop
+#### 5.1 如何使用快捷 AirDrop
 
 1. 打开 Clipo 面板。
 2. 选择或拖入你想发送的内容。
@@ -590,7 +726,7 @@ Clipo 内置快捷 AirDrop 工作流，既支持剪贴板记录，也支持外�
 
 这样可以省去打开 Finder、定位文件、右键分享、再选择 AirDrop 的繁琐步骤。
 
-### 5.2 AirDrop + 固定文件投放区
+#### 5.2 AirDrop + 固定文件投放区
 
 Clipo 的外部文件工具区可以提供两个投放目标：
 
@@ -599,15 +735,13 @@ Clipo 的外部文件工具区可以提供两个投放目标：
 
 这让 Clipo 变成一个小型文件传输 Dock。
 
----
-
-## 6. AI 剪贴板功能
+### 6. AI 剪贴板功能
 
 ![Ask AI](assets/04-ai.png)
 
 Clipo 可以接入 OpenAI Compatible 类型的 API。你可以配置自己的 Base URL、API Key 和 Model ID，然后用 AI 搜索、总结、改写、翻译、清理或处理剪贴板内容。
 
-### 6.1 AI 搜索
+#### 6.1 AI 搜索
 
 当普通关键词搜索不够用时，可以使用 AI 搜索。你可以直接输入自然语言，例如：
 
@@ -619,7 +753,7 @@ Clipo 可以接入 OpenAI Compatible 类型的 API。你可以配置自己的 Ba
 
 AI 可以结合内容相关性、语义、来源应用、复制时间以及图片索引说明来查找记录。
 
-### 6.2 对剪贴板项目提问
+#### 6.2 对剪贴板项目提问
 
 你可以把一个或多个剪贴板卡片发送到 AI 窗口，让 AI 处理它们。
 
@@ -633,11 +767,11 @@ AI 可以结合内容相关性、语义、来源应用、复制时间以及图�
 - 对比多个剪贴板记录。
 - 根据复制内容生成回复。
 
-### 6.3 发送多个剪贴板项目给 AI
+#### 6.3 发送多个剪贴板项目给 AI
 
 Clipo 支持将多个选中的项目一起放入 AI 输入区。适合处理多段文字、多个截图、多个链接或多个文件，并让 AI 综合分析。
 
-### 6.4 AI 编辑、删除与剪贴板操作
+#### 6.4 AI 编辑、删除与剪贴板操作
 
 Clipo 可以选择性允许 AI 修改或删除剪贴板记录。这个权限需要你手动开启，所以 AI 默认不能随意更改历史。
 
@@ -648,7 +782,7 @@ Clipo 可以选择性允许 AI 修改或删除剪贴板记录。这个权限需�
 - 在对话中以卡片形式显示匹配记录。
 - 根据你的要求清理无用或重复内容。
 
-### 6.5 AI 图片索引
+#### 6.5 AI 图片索引
 
 如果你配置的模型支持视觉能力，Clipo 可以为图片生成语义说明，让图片也能被自然语言搜索。
 
@@ -659,25 +793,29 @@ Clipo 可以选择性允许 AI 修改或删除剪贴板记录。这个权限需�
 - “蓝色图标图片”
 - “La La Land 海报”
 
----
+#### 6.6 CLI 与 MCP
 
-## 7. 存储空间管理
+Clipo 提供可选的命令行工具，适合终端和脚本工作流。CLI 可以查询状态、读取或设置当前剪贴板、列出和搜索历史、查看或复制记录、管理固定项、操作集锦、导出记录、打开 Clipo 页面以及运行已启用的工具。
+
+Clipo 还提供面向兼容客户端（例如 Codex）的本地 MCP 服务。MCP 需要在设置中明确启用，配置路径会随用户和应用升级保持稳定，并且不会暴露加密记录。
+
+### 7. 存储空间管理
 
 ![存储空间管理](assets/02-storage.png)
 
 Clipo 提供存储页面，用于控制剪贴板历史占用的磁盘空间。
 
-### 7.1 缓存上限
+#### 7.1 缓存上限
 
 你可以设置最大缓存空间。常见档位包括 500 MB、1 GB、2 GB、5 GB 和 10 GB。
 
 当实际使用空间超过上限时，Clipo 可以从较旧记录开始清理，直到低于设定上限。固定记录可以根据你的选择被保留。
 
-### 7.2 清除全部记录
+#### 7.2 清除全部记录
 
 你可以清除所有剪贴板记录和临时拖拽文件，也可以选择保留固定项。
 
-### 7.3 AI 清理
+#### 7.3 AI 清理
 
 AI 清理可以帮助你找出可能不再有用的记录。
 
@@ -693,73 +831,73 @@ AI 清理可以帮助你找出可能不再有用的记录。
 
 Clipo 会先筛选结果，再让你确认后删除，不会直接跳过确认。
 
----
-
-## 8. 隐私、本地数据与加密
+### 8. 隐私、本地数据与加密
 
 ![隐私与加密](assets/03-privacy.png)
 
 Clipo 以本地优先为设计原则。
 
-### 8.1 本地保存
+#### 8.1 本地保存
 
 剪贴板历史保存在你的 Mac 本地。应用会在本地 Application Support 目录中维护历史和缓存。
 
-### 8.2 API Key 加密保护
+#### 8.2 API Key 加密保护
 
 AI API Key 通过加密的 Keychain 存储，而不是明文保存在 UserDefaults 中。设置界面也使用安全输入框显示 Key。
 
-### 8.3 加密剪贴板记录
+#### 8.3 加密剪贴板记录
 
 Clipo 支持对单个剪贴板项目进行加密，也可以把某些敏感应用加入加密列表，让这些应用产生的剪贴板记录自动锁定。
 
 加密记录在解锁前需要通过 macOS 身份验证，例如密码或 Touch ID。
 
-### 8.4 排除应用
+#### 8.4 排除应用
 
 你可以把某些应用排除在剪贴板记录之外，也可以单独排除中键面板，避免中键与特定软件快捷操作冲突。
 
----
-
-## 9. 多种粘贴方式
+### 9. 多种粘贴方式
 
 ![多种粘贴方式](assets/08-paste-methods.png)
 
 Clipo 提供多种粘贴方式，让你根据不同场景选择最快的操作。
 
-### 9.1 普通粘贴
+#### 9.1 普通粘贴
 
 选中一张卡片后，将其粘贴到当前前台应用中。你可以在设置中决定卡片的主要操作是复制还是粘贴。
 
-### 9.2 双击或回车粘贴
+#### 9.2 双击或回车粘贴
 
 你可以设置双击卡片或按下 Enter 时执行的行为，例如粘贴、复制或其他卡片操作。
 
-### 9.3 纯文本粘贴
+#### 9.3 纯文本粘贴
 
 “Paste as Plain Text” 可以去除格式，只粘贴干净文本。适合从网页、PDF、邮件或文档中复制带格式内容时使用。
 
-### 9.4 合并粘贴
+#### 9.4 合并粘贴
 
 在多选模式下，可以一次选中多条记录并合并粘贴。适合把多个文本片段、链接、笔记或复制内容合成一次输出。
 
-### 9.5 拖拽粘贴
+#### 9.5 拖拽粘贴
 
 可以把图片、文件或卡片拖到支持拖拽的应用或上传区域中。
 
-### 9.6 中键粘贴
+#### 9.6 中键粘贴
 
 中键工作流可以快速呼出面板，移动鼠标选择卡片，然后快速完成粘贴，非常适合高频调用剪贴板历史。
 
----
+#### 9.7 快速预览与网页链接
 
-## 10. 多种面板打开方式与位置
+快速预览窗口会根据记录类型选择对应的轻量预览。对于 HTTP/HTTPS 网页链接，Clipo 会在短暂停留后才创建 WebKit 视图，使用非持久化网站数据存储，并在预览关闭时停止加载，以降低内存和网络开销。
+
+底部栏会显示记录的复制时间。网页记录的“在默认浏览器中打开”按钮与 AirDrop 位于同一行，可以在 Clipo 内快速查看，也可以交给日常使用的浏览器继续浏览。
+
+### 10. 多种面板打开方式与位置
 
 ![面板位置](assets/09-panel-positions.png)
 
 Clipo 的悬浮面板可以出现在最适合当前操作的位置。
 
-### 10.1 面板位置
+#### 10.1 面板位置
 
 支持的面板位置包括：
 
@@ -768,7 +906,7 @@ Clipo 的悬浮面板可以出现在最适合当前操作的位置。
 - **Right edge / 右侧边缘**：竖向面板位于屏幕右侧。
 - **Near Mouse / 鼠标附近**：在指针附近快速出现，常用于中键打开方式。
 
-### 10.2 打开方式
+#### 10.2 打开方式
 
 你可以启用一种或多种打开方式：
 
@@ -777,48 +915,46 @@ Clipo 的悬浮面板可以出现在最适合当前操作的位置。
 - **鼠标中键**：按下或按住中键，在鼠标附近打开面板。
 - **菜单栏入口**：通过 macOS 菜单栏图标打开设置、历史、AI 和面板控制项。
 
-### 10.3 松开按键自动关闭
+#### 10.3 松开按键自动关闭
 
 Clipo 可以在松开快捷键后自动关闭面板，让它像一个快速命令面板一样使用。
 
 当面板内的搜索框或输入框正在输入时，面板应保持打开，避免用户输入被打断。此时可以通过 Esc、点击面板外区域或再次按快捷键关闭。
 
-### 10.4 记住面板状态
+#### 10.4 记住面板状态
 
 Clipo 可以在关闭后记住面板位置和模式，下次打开时保持之前的使用状态。
 
----
+### 11. 推荐使用流程
 
-## 11. 推荐使用流程
-
-### 11.1 快速粘贴最近内容
+#### 11.1 快速粘贴最近内容
 
 1. 在任意应用中复制内容。
 2. 用快捷键打开 Clipo。
 3. 选择对应卡片。
 4. 普通粘贴或纯文本粘贴。
 
-### 11.2 在多个应用之间复用文件
+#### 11.2 在多个应用之间复用文件
 
 1. 复制文件或把文件拖入 Clipo。
 2. 固定 1 小时、12 小时、一周或永久。
 3. 需要时拖到聊天、浏览器、文档编辑器或上传框中。
 
-### 11.3 AirDrop 最近复制的文件
+#### 11.3 AirDrop 最近复制的文件
 
 1. 打开面板。
 2. 选择文件记录。
 3. 选择 AirDrop 或拖到 AirDrop 区域。
 4. 选择接收设备。
 
-### 11.4 用 AI 查找旧剪贴板
+#### 11.4 用 AI 查找旧剪贴板
 
 1. 打开 More History 或 AI 模式。
 2. 输入自然语言搜索需求。
 3. 查看 AI 返回的卡片。
 4. 粘贴、固定、打标签、删除或继续交给 AI 处理。
 
-### 11.5 安全清理存储空间
+#### 11.5 安全清理存储空间
 
 1. 打开 Storage 设置。
 2. 查看已用空间和缓存上限。
@@ -826,9 +962,7 @@ Clipo 可以在关闭后记住面板位置和模式，下次打开时保持之�
 4. 删除前检查 AI 筛选结果。
 5. 对重要项目选择保留固定项。
 
----
-
-## 12. 设置说明
+### 12. 设置说明
 
 | 设置项 | 作用 |
 |---|---|
@@ -848,10 +982,16 @@ Clipo 可以在关闭后记住面板位置和模式，下次打开时保持之�
 | Allow AI Delete/Modify | 允许 AI 修改或删除剪贴板记录。 |
 | Encrypted Apps | 来自敏感应用的内容自动加密。 |
 | Excluded Apps | 排除不想记录的应用，或避免中键冲突。 |
+| LAN Sync | 配对同一局域网中的设备，并选择初始同步范围。 |
+| Collections | 创建和管理剪贴板集锦工作区。 |
+| Infinite Canvas | 在可缩放画布中自由排布集锦记录。 |
+| Command Line Tool | 安装或移除终端使用的 `clipo` 命令。 |
+| MCP Server | 允许兼容的本地 MCP 客户端访问授权的剪贴板数据。 |
+| Custom Export | 将筛选后的记录导出为常见文档、数据和文本格式。 |
+| File Slimming | 使用不同压缩档位处理支持的图片和 PDF 文件。 |
+| Smart Screenshot | 截图、OCR、翻译和编辑截图文字。 |
 
----
-
-## 13. 使用建议
+### 13. 使用建议
 
 - 清理存储前先固定重要文件。
 - 用标签管理项目、客户或任务。
@@ -860,5 +1000,6 @@ Clipo 可以在关闭后记住面板位置和模式，下次打开时保持之�
 - 需要快速跨设备发送文件时，使用 AirDrop 投放区。
 - 历史记录很多时，适当限制 AI 可读取的记录数量。
 - 对敏感内容使用加密记录或加密应用规则。
-
----
+- 使用“排序”菜单恢复清晰的最新优先顺序，或将当前工作中的多条记录置于最前。
+- 归档多条记录时使用批量保存，并在分享前检查自动生成的文件名。
+- 网页链接可先用快速预览轻量查看，需要完整浏览时点击浏览器按钮。
