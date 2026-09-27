@@ -13,17 +13,18 @@
             <li>Compact panel testing.</li>
         </ul>
     ]]></description>
-    <pubDate>Sun, 27 Sep 2026 18:37:18 +0800</pubDate>
+    <pubDate>Sun, 27 Sep 2026 22:15:58 +0800</pubDate>
     <sparkle:channel>beta</sparkle:channel>
     <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.3-beta.3/Clipo_Sparkle.dmg"
-        sparkle:version="48"
+        sparkle:version="49"
         sparkle:shortVersionString="1.3.3 Beta 3"
-        length="17373861"
+        length="17428768"
         type="application/octet-stream"
-        sparkle:edSignature="loYqhcFSeufYxTd2v0hrEWUJ9BsI4o+DMWK0UENscg0wgHTUzevkkxsw2vtrSEfIUJ4U8qFBDR4VbVAhVxfZDQ=="
+        sparkle:edSignature="KTAMvqgWxATDd1RfX2Xzt+2ZQaoxoMo8LV3BvfijKI7NKH/U54A8ME+jJ7spcAyb5qs8RdHMmndLAsZU7HECBQ=="
     />
 </item>
+
 <item>
     <title>Version 1.3.3 Beta 2</title>
     <description><![CDATA[
