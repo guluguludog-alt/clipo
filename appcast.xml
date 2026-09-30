@@ -4,6 +4,27 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.3.3 Beta 4</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo 1.3.3 Beta 4</li>
+            <li>测试 / Testing</li>
+            <li>紧凑面板测试。</li>
+            <li>Compact panel testing.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Wed, 30 Sep 2026 10:44:27 +0800</pubDate>
+    <sparkle:channel>beta</sparkle:channel>
+    <enclosure
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.3-beta.4/Clipo_Sparkle.dmg"
+        sparkle:version="51"
+        sparkle:shortVersionString="1.3.3 Beta 4"
+        length="17432211"
+        type="application/octet-stream"
+        sparkle:edSignature="+p0bpqJ/kYIFpuoZ8+/Z3ldxAeZTx/VPUwBJSAnqkxgTy12Iy4/YhWAsCuGaRRj785C+4EmLenvaBYJFB7cLCg=="
+    />
+</item>
+<item>
     <title>Version 1.3.3 Beta 3</title>
     <description><![CDATA[
         <ul>
