@@ -21,6 +21,34 @@
             <li>Performance optimizations.</li>
         </ul>
     ]]></description>
+    <pubDate>Sun, 04 Oct 2026 17:32:09 +0800</pubDate>
+    <enclosure
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.3/Clipo_Sparkle.dmg"
+        sparkle:version="53"
+        sparkle:shortVersionString="1.3.3"
+        length="20248507"
+        type="application/octet-stream"
+        sparkle:edSignature="HiRAkD8nQF3ejSaZZNiHIojI0ICISODX2doIYLUvb5R8Po19Bd+70qqXxVlwD5/JE7UJwbjTO5uhLKLuDOsxBQ=="
+    />
+</item>
+<item>
+    <title>Version 1.3.3</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo 1.3.3 更新日志</li>
+            <li>新增</li>
+            <li>紧凑面板样式，以列表形式显示更多条记录。</li>
+            <li>支持 macOS 15。</li>
+            <li>优化</li>
+            <li>性能优化。</li>
+            <li>Clipo 1.3.3 Release Notes</li>
+            <li>New</li>
+            <li>Added a compact panel style that displays more records in a list.</li>
+            <li>Added support for macOS 15.</li>
+            <li>Improved</li>
+            <li>Performance optimizations.</li>
+        </ul>
+    ]]></description>
     <pubDate>Sun, 04 Oct 2026 12:28:38 +0800</pubDate>
     <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.3/Clipo_Sparkle.dmg"
