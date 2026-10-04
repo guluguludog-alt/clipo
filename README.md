@@ -116,9 +116,9 @@ You can also download the latest version from the project [Releases](https://git
 
 ### English Quick Guide
 
-[![English Quick Guide](https://img.youtube.com/vi/Z2NndflBPVw/maxresdefault.jpg)](https://www.youtube.com/watch?v=Z2NndflBPVw)
+[![English Quick Guide](https://img.youtube.com/vi/_RMB8_DNTVY/maxresdefault.jpg)](https://www.youtube.com/watch?v=_RMB8_DNTVY)
 
-[Watch English Quick Guide](https://www.youtube.com/watch?v=Z2NndflBPVw)
+[Watch English Quick Guide](https://www.youtube.com/watch?v=_RMB8_DNTVY)
 
 ## English Version
 
@@ -1008,6 +1008,6 @@ Clipo 可以在关闭后记住面板位置和模式，下次打开时保持之�
 
 ### 中文快速指南
 
-[![中文快速指南](https://img.youtube.com/vi/F_4WICR8o4o/maxresdefault.jpg)](https://www.youtube.com/watch?v=F_4WICR8o4o)
+[![中文快速指南](https://img.youtube.com/vi/leG3h7NRXS8/maxresdefault.jpg)](https://www.youtube.com/watch?v=leG3h7NRXS8)
 
-[观看中文快速指南](https://www.youtube.com/watch?v=F_4WICR8o4o)
+[观看中文快速指南](https://www.youtube.com/watch?v=leG3h7NRXS8)
