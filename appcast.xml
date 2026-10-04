@@ -4,6 +4,34 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.3.3</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo 1.3.3 更新日志</li>
+            <li>新增</li>
+            <li>紧凑面板样式，以列表形式显示更多条记录。</li>
+            <li>支持 macOS 15。</li>
+            <li>优化</li>
+            <li>性能优化。</li>
+            <li>Clipo 1.3.3 Release Notes</li>
+            <li>New</li>
+            <li>Added a compact panel style that displays more records in a list.</li>
+            <li>Added support for macOS 15.</li>
+            <li>Improved</li>
+            <li>Performance optimizations.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Sun, 04 Oct 2026 12:28:38 +0800</pubDate>
+    <enclosure
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.3/Clipo_Sparkle.dmg"
+        sparkle:version="52"
+        sparkle:shortVersionString="1.3.3"
+        length="20248528"
+        type="application/octet-stream"
+        sparkle:edSignature="Gak5FAKbMSLipLpkwg2067ImseueTwc6AAoGKTa9vN6doyjFCHyEkE2SINand0Pgnlzl8Y8RpM3U6gr3FM6MAw=="
+    />
+</item>
+<item>
     <title>Version 1.3.3 Beta 4</title>
     <description><![CDATA[
         <ul>
@@ -61,9 +89,9 @@
     ]]></description>
     <pubDate>Sun, 20 Sep 2026 14:26:54 +0800</pubDate>
     <sparkle:channel>beta</sparkle:channel>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.3-beta.2/Clipo_Sparkle.dmg"
-        sparkle:version="47" 
+        sparkle:version="47"
         sparkle:shortVersionString="1.3.3 Beta 2"
         length="16835133"
         type="application/octet-stream"
@@ -82,9 +110,9 @@
     ]]></description>
     <pubDate>Sat, 19 Sep 2026 00:40:46 +0800</pubDate>
     <sparkle:channel>beta</sparkle:channel>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.3-beta.1/Clipo_Sparkle.dmg"
-        sparkle:version="46" 
+        sparkle:version="46"
         sparkle:shortVersionString="1.3.3 Beta 1"
         length="16736644"
         type="application/octet-stream"
@@ -135,9 +163,9 @@
         </ul>
     ]]></description>
     <pubDate>Thu, 17 Sep 2026 16:06:30 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.2/Clipo_Sparkle.dmg"
-        sparkle:version="45" 
+        sparkle:version="45"
         sparkle:shortVersionString="1.3.2"
         length="16608721"
         type="application/octet-stream"
@@ -155,9 +183,9 @@
         </ul>
     ]]></description>
     <pubDate>Sat, 12 Sep 2026 20:17:24 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.1/Clipo_Sparkle.dmg"
-        sparkle:version="43" 
+        sparkle:version="43"
         sparkle:shortVersionString="1.3.1"
         length="16561411"
         type="application/octet-stream"
@@ -195,9 +223,9 @@
         </ul>
     ]]></description>
     <pubDate>Sun, 06 Sep 2026 22:56:17 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.0/Clipo_Sparkle.dmg"
-        sparkle:version="42" 
+        sparkle:version="42"
         sparkle:shortVersionString="1.3.0"
         length="16546583"
         type="application/octet-stream"
@@ -230,9 +258,9 @@
         </ul>
     ]]></description>
     <pubDate>Wed, 19 Aug 2026 00:16:29 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.9.1/Clipo_Sparkle.dmg"
-        sparkle:version="39" 
+        sparkle:version="39"
         sparkle:shortVersionString="1.2.9.1"
         length="18237537"
         type="application/octet-stream"
@@ -344,9 +372,9 @@
         </ul>
     ]]></description>
     <pubDate>Tue, 07 Jul 2026 23:36:24 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.6/Clipo_Sparkle.dmg"
-        sparkle:version="33" 
+        sparkle:version="33"
         sparkle:shortVersionString="1.2.6"
         length="18587115"
         type="application/octet-stream"
@@ -377,9 +405,9 @@
         </ul>
     ]]></description>
     <pubDate>Sat, 04 Jul 2026 21:19:05 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.5/Clipo_Sparkle.dmg"
-        sparkle:version="31" 
+        sparkle:version="31"
         sparkle:shortVersionString="1.2.5"
         length="18503682"
         type="application/octet-stream"
@@ -410,9 +438,9 @@
         </ul>
     ]]></description>
     <pubDate>Tue, 30 Jun 2026 23:03:52 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.4/Clipo_Sparkle.dmg"
-        sparkle:version="28" 
+        sparkle:version="28"
         sparkle:shortVersionString="1.2.4"
         length="18048435"
         type="application/octet-stream"
@@ -435,9 +463,9 @@
         </ul>
     ]]></description>
     <pubDate>Fri, 26 Jun 2026 22:19:55 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.3/Clipo_Sparkle.dmg"
-        sparkle:version="27" 
+        sparkle:version="27"
         sparkle:shortVersionString="1.2.3"
         length="16568875"
         type="application/octet-stream"
@@ -460,9 +488,9 @@
         </ul>
     ]]></description>
     <pubDate>Fri, 26 Jun 2026 18:45:10 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.3/Clipo_Sparkle.dmg"
-        sparkle:version="26" 
+        sparkle:version="26"
         sparkle:shortVersionString="1.2.3"
         length="16568857"
         type="application/octet-stream"
@@ -487,9 +515,9 @@
         </ul>
     ]]></description>
     <pubDate>Mon, 22 Jun 2026 19:38:00 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.2/Clipo_Sparkle.dmg"
-        sparkle:version="25" 
+        sparkle:version="25"
         sparkle:shortVersionString="1.2.2"
         length="15678807"
         type="application/octet-stream"
@@ -514,9 +542,9 @@
         </ul>
     ]]></description>
     <pubDate>Mon, 22 Jun 2026 14:52:00 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.2/Clipo_Sparkle.dmg"
-        sparkle:version="24" 
+        sparkle:version="24"
         sparkle:shortVersionString="1.2.2"
         length="15677026"
         type="application/octet-stream"
@@ -544,9 +572,9 @@
         </ul>
     ]]></description>
     <pubDate>Sat, 15 Jun 2026 16:29:00 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.1/Clipo_Sparkle.dmg"
-        sparkle:version="23" 
+        sparkle:version="23"
         sparkle:shortVersionString="1.2.1"
         length="11795219"
         type="application/octet-stream"
@@ -569,9 +597,9 @@ sparkle:edSignature="knFFQtXUlsETA9M8UT1IbAwYGQi7ME4XCM0NcZ7nGNYb1wWTpPqIGj12sS8
         </ul>
     ]]></description>
     <pubDate>Sat, 6 Jun 2026 23:54:00 +0800</pubDate>
-    <enclosure 
+    <enclosure
         url="https://github.com/guluguludog-alt/clipo/releases/download/v1.2.0/Clipo_Setup.dmg"
-        sparkle:version="22" 
+        sparkle:version="22"
         sparkle:shortVersionString="1.2.0"
         length="10027341"
         type="application/octet-stream"
@@ -586,9 +614,9 @@ sparkle:edSignature="7LwVEEGPB1oPzo5OP1xl5gQTAX4JVGkdgw3i65x/SVibZYoM1h9nRDnPGyf
                 </ul>
             ]]></description>
             <pubDate>Fri, 5 Jun 2026 18:46:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.1.7/Clipo_Setup.dmg"
-                sparkle:version="20" 
+                sparkle:version="20"
                 sparkle:shortVersionString="1.1.7"
                 length="9153357"
                 type="application/octet-stream"
@@ -604,9 +632,9 @@ sparkle:edSignature="LR2ZoXrTtUdfl3rHw3WJmspsDHtAw8veoIcqwfRG4tHEPdco5Mmur51WaMj
                 </ul>
             ]]></description>
             <pubDate>Wed, 5 Jun 2026 00:13:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.1.6/Clipo_Setup.dmg"
-                sparkle:version="19" 
+                sparkle:version="19"
                 sparkle:shortVersionString="1.1.6"
                 length="9092696"
                 type="application/octet-stream"
@@ -621,9 +649,9 @@ sparkle:edSignature="USvhcvO7eQfOq3O8DaayM3JtWI+kIDrixIbOMj+hsqbNZzjPoBqWmwdLEeT
                 </ul>
             ]]></description>
             <pubDate>Wed, 3 Jun 2026 04:23:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.1.5/Clipo_Setup.dmg"
-                sparkle:version="18" 
+                sparkle:version="18"
                 sparkle:shortVersionString="1.1.5"
                 length="8816821"
                 type="application/octet-stream"
@@ -638,9 +666,9 @@ sparkle:edSignature="XWN7ZmKkkaSDtTd1yZEINKb+qds+Q4IWctKl/FHbfNnT5WRBGD/QnmkbL2D
                 </ul>
             ]]></description>
             <pubDate>Mon, 2 Jun 2026 13:24:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.1.4/Clipo_Setup.dmg"
-                sparkle:version="17" 
+                sparkle:version="17"
                 sparkle:shortVersionString="1.1.4"
                 length="8780356"
                 type="application/octet-stream"
@@ -655,9 +683,9 @@ sparkle:edSignature="j7O9WyKFV83/5pvQa7SXE4ONtUSW+HUxQvHhccw9t7/iKXC+49cCQy+u64b
                 </ul>
             ]]></description>
             <pubDate>Mon, 2 Jun 2026 11:58:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.1.3/Clipo_Setup.dmg"
-                sparkle:version="16" 
+                sparkle:version="16"
                 sparkle:shortVersionString="1.1.3"
                 length="8780377"
                 type="application/octet-stream"
@@ -672,9 +700,9 @@ sparkle:edSignature="MmRhsNJweNAEISKzNvRvxpQzLYh5bPASbaz+aMNnx+bX2uoKzjCxyw26TeY
                 </ul>
             ]]></description>
             <pubDate>Mon, 1 Jun 2026 16:09:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.1.1/Clipo_Setup.dmg"
-                sparkle:version="14" 
+                sparkle:version="14"
                 sparkle:shortVersionString="1.1.1"
                 length="8723670"
                 type="application/octet-stream"
@@ -689,9 +717,9 @@ sparkle:edSignature="/4aI9v2zFtTeAMIUeZhZNKw9zkggeMWJuYcIluZccK3JJkW4PHR7y9vvufS
                 </ul>
             ]]></description>
             <pubDate>Mon, 1 Jun 2026 15:40:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.1.0/Clipo_Setup.dmg"
-                sparkle:version="13" 
+                sparkle:version="13"
                 sparkle:shortVersionString="1.1.0"
                 length="8720115"
                 type="application/octet-stream"
@@ -708,9 +736,9 @@ sparkle:edSignature="tNDhmRHAs/MRYAW9iFMLG0a7arSJsFZlbQEyujHHeclX+RwkOZu+N2H37Zc
                 </ul>
             ]]></description>
             <pubDate>Mon, 1 Jun 2026 15:04:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.0.9/Clipo_Setup.dmg"
-                sparkle:version="12" 
+                sparkle:version="12"
                 sparkle:shortVersionString="1.0.9"
                 length="8720410"
                 type="application/octet-stream"
@@ -725,9 +753,9 @@ sparkle:edSignature="884bk8RLUJCANlDm8ljnARUFPMfd3U84J89nWonfuH+JZMYnF4qPqoQixR8
                 </ul>
             ]]></description>
             <pubDate>Mon, 1 Jun 2026 13:01:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.0.8/Clipo_Setup.dmg"
-                sparkle:version="11" 
+                sparkle:version="11"
                 sparkle:shortVersionString="1.0.8"
                 length="8698497"
                 type="application/octet-stream"
@@ -742,9 +770,9 @@ sparkle:edSignature="884bk8RLUJCANlDm8ljnARUFPMfd3U84J89nWonfuH+JZMYnF4qPqoQixR8
                 </ul>
             ]]></description>
             <pubDate>Mon, 1 Jun 2026 12:02:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.0.8/Clipo_Setup.dmg"
-                sparkle:version="10" 
+                sparkle:version="10"
                 sparkle:shortVersionString="1.0.8"
                 length="8700560"
                 type="application/octet-stream"
@@ -759,12 +787,12 @@ sparkle:edSignature="884bk8RLUJCANlDm8ljnARUFPMfd3U84J89nWonfuH+JZMYnF4qPqoQixR8
                 </ul>
             ]]></description>
             <pubDate>Sat, 31 May 2026 23:59:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.0.6/Clipo_Setup.dmg"
-                sparkle:version="8" 
+                sparkle:version="8"
                 sparkle:shortVersionString="1.0.6"
                 length="8662851"
-                type="/xzxQP5tSSSWryhk2uvNIecdJJHCXdWQHvyIf0ZSp7Ud+uNp8AG7uetbvwP63M8bUWehFk86r+TbeYLWnz8uDg==" 
+                type="/xzxQP5tSSSWryhk2uvNIecdJJHCXdWQHvyIf0ZSp7Ud+uNp8AG7uetbvwP63M8bUWehFk86r+TbeYLWnz8uDg=="
             />
         </item>
 <item>
@@ -775,13 +803,13 @@ sparkle:edSignature="884bk8RLUJCANlDm8ljnARUFPMfd3U84J89nWonfuH+JZMYnF4qPqoQixR8
                 </ul>
             ]]></description>
             <pubDate>Sat, 31 May 2026 04:39:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.0.5/Clipo_Setup.dmg"
-                sparkle:version="7" 
+                sparkle:version="7"
                 sparkle:shortVersionString="1.0.5"
                 length="8647069"
                 type="application/octet-stream"
-sparkle:edSignature="xdn9gfmP1br7t3FhIS6e5tAQXZE6pbOTRnbjyC5OOwMN1qCGQdARSLx7aWwzbCTywQvTEXzXEQKqA8/AwX+cDw==" 
+sparkle:edSignature="xdn9gfmP1br7t3FhIS6e5tAQXZE6pbOTRnbjyC5OOwMN1qCGQdARSLx7aWwzbCTywQvTEXzXEQKqA8/AwX+cDw=="
             />
         </item>
 
@@ -793,13 +821,13 @@ sparkle:edSignature="xdn9gfmP1br7t3FhIS6e5tAQXZE6pbOTRnbjyC5OOwMN1qCGQdARSLx7aWw
                 </ul>
             ]]></description>
             <pubDate>Sat, 30 May 2026 15:52:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.0.4/Clipo_Setup.dmg"
-                sparkle:version="6" 
+                sparkle:version="6"
                 sparkle:shortVersionString="1.0.4"
                 length="8641997"
                 type="application/octet-stream"
-                sparkle:edSignature="RPEHFDa+D5/ampWvUQ1Sm+OQA89DjE9DHj+yNCKB4WXcoExQ5F4QqR0HxTcyNMaKIpU7O5UZ2ytmLndXD0P8AA==" 
+                sparkle:edSignature="RPEHFDa+D5/ampWvUQ1Sm+OQA89DjE9DHj+yNCKB4WXcoExQ5F4QqR0HxTcyNMaKIpU7O5UZ2ytmLndXD0P8AA=="
             />
         </item>
 
@@ -812,13 +840,13 @@ sparkle:edSignature="xdn9gfmP1br7t3FhIS6e5tAQXZE6pbOTRnbjyC5OOwMN1qCGQdARSLx7aWw
                 </ul>
             ]]></description>
             <pubDate>Sat, 30 May 2026 02:29:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.0.3/Clipo_Setup.dmg"
-                sparkle:version="5" 
+                sparkle:version="5"
                 sparkle:shortVersionString="1.0.3.1"
                 length="8637175"
                 type="application/octet-stream"
-                sparkle:edSignature="Z/vjHD08ZMydVUc5l3a6BDb6YGcQ6W16qQv1Ir02Ay8WYF7OotNN++MOWi0xBlE1QofS8GsRjVpj/W37cFoRBg==" 
+                sparkle:edSignature="Z/vjHD08ZMydVUc5l3a6BDb6YGcQ6W16qQv1Ir02Ay8WYF7OotNN++MOWi0xBlE1QofS8GsRjVpj/W37cFoRBg=="
             />
         </item>
 
@@ -831,13 +859,13 @@ sparkle:edSignature="xdn9gfmP1br7t3FhIS6e5tAQXZE6pbOTRnbjyC5OOwMN1qCGQdARSLx7aWw
                 </ul>
             ]]></description>
             <pubDate>Sat, 30 May 2026 02:29:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.0.3/Clipo_Setup.dmg"
-                sparkle:version="4" 
+                sparkle:version="4"
                 sparkle:shortVersionString="1.0.3"
                 length="8637175"
                 type="application/octet-stream"
-                sparkle:edSignature="Z/vjHD08ZMydVUc5l3a6BDb6YGcQ6W16qQv1Ir02Ay8WYF7OotNN++MOWi0xBlE1QofS8GsRjVpj/W37cFoRBg==" 
+                sparkle:edSignature="Z/vjHD08ZMydVUc5l3a6BDb6YGcQ6W16qQv1Ir02Ay8WYF7OotNN++MOWi0xBlE1QofS8GsRjVpj/W37cFoRBg=="
             />
         </item>
 
@@ -850,13 +878,13 @@ sparkle:edSignature="xdn9gfmP1br7t3FhIS6e5tAQXZE6pbOTRnbjyC5OOwMN1qCGQdARSLx7aWw
                 </ul>
             ]]></description>
             <pubDate>Fri, 29 May 2026 21:02:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.0.2/Clipo_Setup.dmg"
-                sparkle:version="3" 
+                sparkle:version="3"
                 sparkle:shortVersionString="1.0.2"
                 length="8621406"
                 type="application/octet-stream"
-                sparkle:edSignature="vHR54UnoarvvwmQikBdGmHUbEBgR4xdOLRm2JvY2T8E5f6c70RO6l1PYswYvpA9DAiwqfTcz3kBPwPJ35oTOCg==" 
+                sparkle:edSignature="vHR54UnoarvvwmQikBdGmHUbEBgR4xdOLRm2JvY2T8E5f6c70RO6l1PYswYvpA9DAiwqfTcz3kBPwPJ35oTOCg=="
             />
         </item>
 
@@ -869,13 +897,13 @@ sparkle:edSignature="xdn9gfmP1br7t3FhIS6e5tAQXZE6pbOTRnbjyC5OOwMN1qCGQdARSLx7aWw
                 </ul>
             ]]></description>
             <pubDate>Fri, 29 May 2026 20:30:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.0.1/Clipo_Setup.dmg"
-                sparkle:version="2" 
+                sparkle:version="2"
                 sparkle:shortVersionString="1.0.1"
                 length="8621043"
                 type="application/octet-stream"
-                sparkle:edSignature="e0W+Jm58Ort1W56m+ueN4/l4mP+vf71mZH8/h8+7++rPZDJlnq3uPc8Fo36apBG+WihUcnzRs9O7IWpq824jAA==" 
+                sparkle:edSignature="e0W+Jm58Ort1W56m+ueN4/l4mP+vf71mZH8/h8+7++rPZDJlnq3uPc8Fo36apBG+WihUcnzRs9O7IWpq824jAA=="
             />
         </item>
 
@@ -888,13 +916,13 @@ sparkle:edSignature="xdn9gfmP1br7t3FhIS6e5tAQXZE6pbOTRnbjyC5OOwMN1qCGQdARSLx7aWw
                 </ul>
             ]]></description>
             <pubDate>Fri, 29 May 2026 17:40:00 +0800</pubDate>
-            <enclosure 
+            <enclosure
                 url="https://github.com/guluguludog-alt/clipo-release/releases/download/v1.0.0/Clipo_Setup.dmg"
-                sparkle:version="1" 
+                sparkle:version="1"
                 sparkle:shortVersionString="1.0.0"
                 length="8618945"
                 type="application/octet-stream"
-                sparkle:edSignature="nEPFtk8RxsFJZ3JHMW73dm+NIumRNjzinFJjDA98fUCf/P3a4IiFeAbQ+kFwKBHad72iMGbS59bSTQryaExlBg==" 
+                sparkle:edSignature="nEPFtk8RxsFJZ3JHMW73dm+NIumRNjzinFJjDA98fUCf/P3a4IiFeAbQ+kFwKBHad72iMGbS59bSTQryaExlBg=="
             />
         </item>
 
