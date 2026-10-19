@@ -4,6 +4,29 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.3.4 Beta 2</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo 1.3.4 Beta 2 更新日志</li>
+            <li>优化</li>
+            <li>性能优化</li>
+            <li>Clipo 1.3.4 Beta 2 Release Notes</li>
+            <li>Improved</li>
+            <li>Performance optimizations.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Tue, 20 Oct 2026 01:08:29 +0800</pubDate>
+    <sparkle:channel>beta</sparkle:channel>
+    <enclosure
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.4-beta.2/Clipo_Sparkle.dmg"
+        sparkle:version="55"
+        sparkle:shortVersionString="1.3.4 Beta 2"
+        length="21010918"
+        type="application/octet-stream"
+        sparkle:edSignature="4aTzPNblvEjSgGMXsRITZpYYyDto4WGkYUVzjf3AvINLObcdMNQW5gWHOXtOCz72cJmc7NVNnkPfkecRZOPeCQ=="
+    />
+</item>
+<item>
     <title>Version 1.3.4 Beta 1</title>
     <description><![CDATA[
         <ul>
