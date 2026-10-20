@@ -4,6 +4,36 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.3.4</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo v1.3.4 已发布</li>
+            <li>新增</li>
+            <li>卡片颜色现在可以跟随剪贴板类别变化。</li>
+            <li>优化</li>
+            <li>优化了性能，减少内存占用。</li>
+            <li>优化了对 SVG 图形的兼容性。</li>
+            <li>优化了拖拽粘贴的流畅度。</li>
+            <li>Clipo v1.3.4 is now available</li>
+            <li>New</li>
+            <li>Card colors now follow the clipboard category.</li>
+            <li>Improved</li>
+            <li>Improved performance and reduced memory usage.</li>
+            <li>Improved compatibility with SVG graphics.</li>
+            <li>Made drag-and-drop pasting smoother.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Wed, 21 Oct 2026 01:31:57 +0800</pubDate>
+    <enclosure
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.4/Clipo_Sparkle.dmg"
+        sparkle:version="56"
+        sparkle:shortVersionString="1.3.4"
+        length="19436233"
+        type="application/octet-stream"
+        sparkle:edSignature="5AujqnVGxJgfNKirw+UgrzP5647gf6PvO2ck+mi0E53QLysNUNWr8rSOVtMvStO2YSP/+CZRZfKRKmyaVtLQDg=="
+    />
+</item>
+<item>
     <title>Version 1.3.4 Beta 2</title>
     <description><![CDATA[
         <ul>
