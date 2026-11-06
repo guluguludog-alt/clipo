@@ -4,6 +4,32 @@
         <title>Clipo Changelog</title>
         <language>zh_CN</language>
 <item>
+    <title>Version 1.3.5</title>
+    <description><![CDATA[
+        <ul>
+            <li>Clipo v1.3.5 已发布</li>
+            <li>新增</li>
+            <li>大爆炸新增滑动选择。</li>
+            <li>修复</li>
+            <li>修复了番茄钟小窗无法拖动的问题。</li>
+            <li>Clipo v1.3.5 is now available</li>
+            <li>New</li>
+            <li>Added swipe selection to Big Bang.</li>
+            <li>Fixed</li>
+            <li>Fixed an issue that prevented dragging the Pomodoro timer mini window.</li>
+        </ul>
+    ]]></description>
+    <pubDate>Sat, 07 Nov 2026 02:17:34 +0800</pubDate>
+    <enclosure
+        url="https://github.com/guluguludog-alt/clipo/releases/download/v1.3.5/Clipo_Sparkle.dmg"
+        sparkle:version="57"
+        sparkle:shortVersionString="1.3.5"
+        length="19459052"
+        type="application/octet-stream"
+        sparkle:edSignature="fT55JgVID7BKNqp8EmfQ7vKIUpJxLZfXNVPh0RoUhD9nfhwkJAP57ThF7fd/GewfhOcOg3EE2hQKfHO2uisdBA=="
+    />
+</item>
+<item>
     <title>Version 1.3.4</title>
     <description><![CDATA[
         <ul>
